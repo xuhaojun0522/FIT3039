@@ -846,3 +846,167 @@ LogInit: Object subsystem initialized
 [2018.10.05-03.29.48:909][667]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_2_BuiltData89079C09456B7A7659C193B82C32DC72.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BuiltData.uasset'
 [2018.10.05-03.29.48:912][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BuiltData.uasset
 [2018.10.05-03.30.18:965][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.31.33:469][528]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.31.34:718][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.31.38:334][599]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
+[2018.10.05-03.31.38:364][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.31.39:772][599]LogSlate: Window 'Save Asset As' being destroyed
+[2018.10.05-03.31.45:336][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.31.51:298][283]LogEditorActor: Deleted Actor: MatineeActor
+[2018.10.05-03.31.51:315][283]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189b25ab3c0, Size=392
+[2018.10.05-03.31.51:316][283]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2018.10.05-03.31.58:945][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.32.00:704][829]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.32.07:326][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.32.08:486][285]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.32.09:840][285]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
+[2018.10.05-03.32.09:854][285]LogInit: Transaction tracking system initialized
+[2018.10.05-03.32.09:854][285]EditorErrors: New page: Matinee Initialization
+[2018.10.05-03.32.10:814][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.32.19:403][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.32.23:664][985]LogSlate: Window 'MatineeActor1*' being destroyed
+[2018.10.05-03.32.23:679][985]LogSlate: Window 'MatineeActor1*' being destroyed
+[2018.10.05-03.32.51:573][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.33.10:499][633]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
+[2018.10.05-03.33.25:647][492]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Walls)
+[2018.10.05-03.33.25:715][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.33.26:886][549]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2018.10.05-03.33.30:102][731]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera2)
+[2018.10.05-03.33.39:279][271]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.33.40:962][369]LogInit: Transaction tracking system initialized
+[2018.10.05-03.33.40:962][369]EditorErrors: New page: Matinee Initialization
+[2018.10.05-03.33.42:532][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.33.48:414][769]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.33.48:515][775]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera2)
+[2018.10.05-03.33.49:396][822]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.34.17:669][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.34.28:653][981]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.34.32:511][191]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.34.39:526][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.34.44:955][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.34.54:394][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.35.14:927][  8]LogSlate: Window 'Message' being destroyed
+[2018.10.05-03.35.14:937][  8]LogSlate: Window 'MatineeActor2*' being destroyed
+[2018.10.05-03.35.15:054][  8]LogExit: Transaction tracking system shut down
+[2018.10.05-03.35.15:096][  8]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189b25aa080, Size=392
+[2018.10.05-03.35.15:096][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x000001896021f580, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_59:ExecuteUbergraph_Level_2
+[2018.10.05-03.35.15:102][  8]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
+[2018.10.05-03.35.15:104][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x000001896021dec0, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.05-03.35.15:105][  8]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [2004.53] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 20 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
+[2018.10.05-03.35.15:506][  8]LogSavePackage: Save=431.32ms
+[2018.10.05-03.35.15:507][  8]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_24064D32F40C60CDFD72166AB992EF38D.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
+[2018.10.05-03.35.15:512][  8]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
+[2018.10.05-03.35.15:547][  8]LogFileHelpers: Saving map 'Level_2' took 0.605
+[2018.10.05-03.35.17:989][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.35.19:248][211]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.35.20:192][211]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
+[2018.10.05-03.35.20:205][211]LogInit: Transaction tracking system initialized
+[2018.10.05-03.35.20:205][211]EditorErrors: New page: Matinee Initialization
+[2018.10.05-03.35.21:488][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.35.28:530][645]LogSlate: Window 'MatineeActor2' being destroyed
+[2018.10.05-03.35.28:544][645]LogSlate: Window 'MatineeActor2' being destroyed
+[2018.10.05-03.35.39:554][270]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
+[2018.10.05-03.35.39:973][292]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
+[2018.10.05-03.35.41:302][370]Cmd: DELETE
+[2018.10.05-03.35.41:302][370]Cmd: ACTOR DELETE
+[2018.10.05-03.35.41:312][370]LogEditorActor: Deleted Actor: BP_Camera_C
+[2018.10.05-03.35.41:330][370]LogExit: Transaction tracking system shut down
+[2018.10.05-03.35.41:330][370]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001896021f580, Size=392
+[2018.10.05-03.35.41:330][370]LogExit: Transaction tracking system shut down
+[2018.10.05-03.35.41:331][370]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.10.05-03.35.42:729][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.36.18:273][532]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2018.10.05-03.36.19:021][571]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.36.20:535][658]LogInit: Transaction tracking system initialized
+[2018.10.05-03.36.20:535][658]EditorErrors: New page: Matinee Initialization
+[2018.10.05-03.36.21:675][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.36.23:068][780]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
+[2018.10.05-03.36.30:916][232]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Walls)
+[2018.10.05-03.36.30:978][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.36.32:190][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
+[2018.10.05-03.36.39:318][696]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
+[2018.10.05-03.36.56:798][642]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
+[2018.10.05-03.36.57:503][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.37.22:205][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.37.22:316][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
+[2018.10.05-03.37.24:221][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.37.32:046][625]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.37.34:236][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.37.38:367][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.37.43:696][238]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.37.49:818][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.37.53:877][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.37.56:599][944]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.37.58:229][ 33]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.05-03.38.08:947][622]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.38.14:348][902]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.38.18:860][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.38.24:883][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.38.26:209][444]LogSlate: Window 'Message' being destroyed
+[2018.10.05-03.38.26:220][444]LogSlate: Window 'MatineeActor3*' being destroyed
+[2018.10.05-03.38.26:361][444]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001896021dec0, Size=392
+[2018.10.05-03.38.26:361][444]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018916e14480, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_63:ExecuteUbergraph_Level_2
+[2018.10.05-03.38.26:367][444]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
+[2018.10.05-03.38.26:369][444]LogUObjectGlobals: Created PersistentFrame Addr=0x000001896021ee80, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.05-03.38.26:370][444]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [2195.79] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 18 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
+[2018.10.05-03.38.26:776][444]LogSavePackage: Save=435.52ms
+[2018.10.05-03.38.26:776][444]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_265D5B340420FEA8DFBB53A83E427EE57.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
+[2018.10.05-03.38.26:781][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
+[2018.10.05-03.38.26:816][444]LogFileHelpers: Saving map 'Level_2' took 0.593
+[2018.10.05-03.38.35:830][963]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.38.38:640][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.38.39:859][127]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
+[2018.10.05-03.38.39:871][127]LogInit: Transaction tracking system initialized
+[2018.10.05-03.38.39:871][127]EditorErrors: New page: Matinee Initialization
+[2018.10.05-03.38.41:148][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.38.49:706][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.38.51:071][745]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.05-03.38.58:238][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.38.58:669][162]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.05-03.39.01:456][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.39.06:045][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.39.06:112][548]LogSlate: Window 'MatineeActor1' being destroyed
+[2018.10.05-03.39.06:122][548]LogSlate: Window 'MatineeActor1' being destroyed
+[2018.10.05-03.39.19:884][326]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
+[2018.10.05-03.39.20:769][376]Cmd: DELETE
+[2018.10.05-03.39.20:769][376]Cmd: ACTOR DELETE
+[2018.10.05-03.39.20:778][376]LogEditorActor: Deleted Actor: BP_Camera_C
+[2018.10.05-03.39.20:798][376]LogExit: Transaction tracking system shut down
+[2018.10.05-03.39.20:798][376]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018916e14480, Size=392
+[2018.10.05-03.39.20:798][376]LogExit: Transaction tracking system shut down
+[2018.10.05-03.39.20:799][376]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.10.05-03.39.21:922][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.39.36:041][246]Cmd: TRANSACTION UNDO
+[2018.10.05-03.39.36:041][246]LogEditorTransaction: Undo Scale Actors
+[2018.10.05-03.39.53:520][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2018.10.05-03.39.54:363][324]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
+[2018.10.05-03.40.01:343][732]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.40.02:557][801]LogInit: Transaction tracking system initialized
+[2018.10.05-03.40.02:557][801]EditorErrors: New page: Matinee Initialization
+[2018.10.05-03.40.03:583][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.40.06:005][980]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
+[2018.10.05-03.40.09:080][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.40.48:518][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.40.54:223][638]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.41.03:242][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.41.07:163][368]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.41.16:831][904]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.41.29:856][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.41.35:146][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.41.43:688][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.41.47:207][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.41.57:740][173]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.42.01:334][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.42.06:757][667]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.05-03.42.12:512][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.05-03.42.31:810][948]LogSlate: Window 'Message' being destroyed
+[2018.10.05-03.42.31:824][948]LogSlate: Window 'MatineeActor4*' being destroyed
+[2018.10.05-03.42.31:987][948]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001896021ee80, Size=392
+[2018.10.05-03.42.31:987][948]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189602cbe40, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_67:ExecuteUbergraph_Level_2
+[2018.10.05-03.42.31:992][948]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
+[2018.10.05-03.42.31:994][948]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189602ca400, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.05-03.42.31:995][948]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [2441.42] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 18 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
+[2018.10.05-03.42.32:391][948]LogSavePackage: Save=423.13ms
+[2018.10.05-03.42.32:391][948]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_279D770B24989689B560CB48245A56A8C.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
+[2018.10.05-03.42.32:394][948]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
+[2018.10.05-03.42.32:428][948]LogFileHelpers: Saving map 'Level_2' took 0.600
