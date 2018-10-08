@@ -1,4 +1,4 @@
-﻿Log file open, 10/05/18 13:01:55
+﻿Log file open, 10/08/18 14:56:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: FIT3039_Project
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(299351449) SRandInit(299351449).
+LogInit: Display: RandInit(1337676174) SRandInit(1337676174).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.018703
+LogStats: Stats thread started at 0.660606
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  3.154s to configure plugins.
+LogStreaming: Display: Took  1.859s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-8AFEPG4 (118.139.39.69:0)
+LogInit: WinSock: I am DESKTOP-8AFEPG4 (118.139.29.234:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -219,794 +219,278 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.05-03.01.58:732][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.05-03.01.58:732][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.05-03.01.58:770][  0]LogInit: Computer: DESKTOP-8AFEPG4
-[2018.10.05-03.01.58:770][  0]LogInit: User: Haojun
-[2018.10.05-03.01.58:770][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.10.05-03.01.58:770][  0]LogInit: High frequency timer resolution =2.156252 MHz
-[2018.10.05-03.01.58:771][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2018.10.05-03.01.58:771][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.05-03.01.58:771][  0]LogMemory: Process Physical Memory: 276.07 MB used, 276.07 MB peak
-[2018.10.05-03.01.58:771][  0]LogMemory: Process Virtual Memory: 272.20 MB used, 272.20 MB peak
-[2018.10.05-03.01.58:771][  0]LogMemory: Physical Memory: 5495.50 MB used,  2436.39 MB free, 7931.89 MB total
-[2018.10.05-03.01.58:771][  0]LogMemory: Virtual Memory: 4821.48 MB used,  2436.39 MB free, 134217728.00 MB total
-[2018.10.05-03.01.58:948][  0]LogInit: Using OS detected language (en-US).
-[2018.10.05-03.01.58:948][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.05-03.01.59:026][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.05-03.01.59:650][  0]LogStreaming: Display: Took  0.697s to EndInitTextLocalization.
-[2018.10.05-03.01.59:652][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.05-03.01.59:880][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.05-03.01.59:880][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.05-03.02.03:192][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.05-03.02.03:283][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (Feature Level 11_0)
-[2018.10.05-03.02.03:283][  0]LogD3D11RHI:       4021/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.10.05-03.02.03:310][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2018.10.05-03.02.03:310][  0]LogD3D11RHI:       128/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.10.05-03.02.03:318][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.05-03.02.03:318][  0]LogD3D11RHI:       0/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.05-03.02.03:318][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.05-03.02.03:354][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.05-03.02.03:354][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
-[2018.10.05-03.02.03:354][  0]LogWindows: EnumDisplayDevices:
-[2018.10.05-03.02.03:354][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2018.10.05-03.02.03:354][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2018.10.05-03.02.03:354][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2018.10.05-03.02.03:354][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.10.05-03.02.03:354][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti with Max-Q Design
-[2018.10.05-03.02.03:354][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.10.05-03.02.03:354][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.10.05-03.02.03:355][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
-[2018.10.05-03.02.03:415][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.10.05-03.02.03:415][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.10.05-03.02.03:415][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.05-03.02.03:471][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.10.05-03.02.03:482][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Intermediate/Shaders/WorkingDirectory/14036/).
-[2018.10.05-03.02.03:482][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Haojun/AppData/Local/Temp/UnrealShaderWorkingDir/CE366CF7424D15549980E58D03025784/'.
-[2018.10.05-03.02.04:343][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.05-03.02.04:358][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.05-03.02.04:372][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.05-03.02.04:387][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.05-03.02.04:412][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.05-03.02.04:426][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.05-03.02.04:441][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.05-03.02.04:456][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.05-03.02.04:464][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.05-03.02.04:477][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.10.05-03.02.04:490][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.10.05-03.02.04:507][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.10.05-03.02.04:520][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.10.05-03.02.04:532][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.10.05-03.02.04:547][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.10.05-03.02.04:573][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.10.05-03.02.04:573][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.10.05-03.02.04:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.05-03.02.04:595][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.05-03.02.04:670][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.05-03.02.04:684][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.05-03.02.04:700][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.05-03.02.04:714][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.05-03.02.04:727][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.05-03.02.04:748][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.05-03.02.04:748][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.05-03.02.05:230][  0]LogXGEController: Cleaning working directory: C:/Users/Haojun/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.10.05-03.02.05:230][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.05-03.02.05:231][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.05-03.02.05:231][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.05-03.02.07:658][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.05-03.02.08:114][  0]LogDerivedDataCache: Loaded boot cache 0.46s 77MB C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.10.05-03.02.08:115][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.10.05-03.02.08:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.05-03.02.08:115][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.05-03.02.08:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.05-03.02.08:115][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.05-03.02.08:145][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.05-03.02.08:158][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Haojun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.05-03.02.08:158][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.05-03.02.08:158][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.05-03.02.08:176][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.05-03.02.08:184][  0]LogSlate: Using Freetype 2.6.0
-[2018.10.05-03.02.08:209][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.05-03.02.08:209][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.05-03.02.11:933][  0]LogAssetRegistry: FAssetRegistry took 0.0326 seconds to start up
-[2018.10.05-03.02.12:728][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.05-03.02.13:235][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.05-03.02.13:242][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.05-03.02.13:243][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.05-03.02.13:244][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.05-03.02.13:244][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.10.05-03.02.13:244][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.10.05-03.02.13:366][  0]LogNetVersion: FIT3039_Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3493369064)
-[2018.10.05-03.02.15:171][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.133118 seconds
-[2018.10.05-03.02.15:182][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.10.05-03.02.15:182][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.10.05-03.02.15:182][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.05-03.02.22:800][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.05-03.02.22:839][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.05-03.02.23:448][  0]SourceControl: Source control is disabled
-[2018.10.05-03.02.23:448][  0]SourceControl: Source control is disabled
-[2018.10.05-03.02.23:487][  0]SourceControl: Source control is disabled
-[2018.10.05-03.02.23:514][  0]SourceControl: Source control is disabled
-[2018.10.05-03.02.24:281][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.05-03.02.24:507][  0]LogOcInput: OculusInput pre-init called
-[2018.10.05-03.02.24:739][  0]LogEngine: Initializing Engine...
-[2018.10.05-03.02.24:751][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.05-03.02.24:756][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.05-03.02.24:758][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.05-03.02.25:208][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.05-03.02.25:275][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.05-03.02.25:744][  0]LogInit: FAudioDevice initialized.
-[2018.10.05-03.02.25:846][  0]LogDerivedDataCache: Saved boot cache 0.10s 77MB C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.10.05-03.02.25:877][  0]LogInit: Texture streaming: Enabled
-[2018.10.05-03.02.25:914][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.05-03.02.25:954][  0]LogInit: Transaction tracking system initialized
-[2018.10.05-03.02.26:061][  0]BlueprintLog: New page: Editor Load
-[2018.10.05-03.02.26:350][  0]LocalizationService: Localization service is disabled
-[2018.10.05-03.02.26:595][  0]LogConsoleResponse: Display: 
-[2018.10.05-03.02.26:938][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.05-03.02.26:938][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.05-03.02.26:938][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.05-03.02.26:938][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.05-03.02.26:938][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.05-03.02.26:987][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/' took 0.02s
-[2018.10.05-03.02.27:666][  0]SourceControl: Source control is disabled
-[2018.10.05-03.02.27:670][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.05-03.02.27:670][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.10.05-03.02.27:671][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.05-03.02.27:737][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.775ms to complete.
-[2018.10.05-03.02.27:737][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.068
-[2018.10.05-03.02.28:096][  0]LogCollectionManager: Loaded 0 collections in 0.001756 seconds
-[2018.10.05-03.02.28:175][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Collections/' took 0.01s
-[2018.10.05-03.02.28:175][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/Developers/Haojun/Collections/' took 0.01s
-[2018.10.05-03.02.28:175][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/Collections/' took 0.01s
-[2018.10.05-03.02.28:175][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.10.05-03.02.28:188][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2452 classes and 558 folders.
-[2018.10.05-03.02.28:205][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.05-03.02.28:776][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.10.05-03.02.28:794][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.10.05-03.02.28:912][  0]LogSlate: Took 0.011860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.05-03.02.28:929][  0]LogSlate: Took 0.013856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.05-03.02.28:954][  0]LogSlate: Took 0.011350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.05-03.02.29:168][  0]LogRenderer: Reallocating scene render targets to support 956x436 Format 10 NumSamples 1 (Frame:1).
-[2018.10.05-03.02.29:633][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.05-03.02.29:633][  0]LogLoad: (Engine Initialization) Total time: 39.06 seconds
-[2018.10.05-03.02.29:633][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.05-03.02.29:713][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.05-03.02.29:781][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/' took 0.10s
-[2018.10.05-03.02.29:801][  1]LogAssetRegistry: Asset discovery search completed in 17.8916 seconds
-[2018.10.05-03.02.29:806][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.10.05-03.02.29:807][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000270 seconds (updated 0 objects)
-[2018.10.05-03.02.32:702][168]LogSlate: Took 0.011588 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.05-03.02.32:939][181]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.02.33:780][228]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.05-03.02.34:019][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.02.36:269][362]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.05-03.02.36:319][362]LightingResults: New page: Lighting Build
-[2018.10.05-03.02.36:328][362]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
-[2018.10.05-03.02.36:330][362]LoadErrors: New page: Loading map: Level_2.umap
-[2018.10.05-03.02.36:338][362]MapCheck: New page: Map Check
-[2018.10.05-03.02.36:338][362]LightingResults: New page: Lighting Build
-[2018.10.05-03.02.36:485][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018916f222c0, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.10.05-03.02.36:523][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018916f222c0, Size=64
-[2018.10.05-03.02.36:523][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018916f23440, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.10.05-03.02.36:549][362]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189421a2340, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.10.05-03.02.36:652][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018943df8aa0, Size=208, Default__BodyGuard_C Function /Game/AI/BodyGuard.BodyGuard_C:ExecuteUbergraph_BodyGuard
-[2018.10.05-03.02.36:659][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018943df8aa0, Size=208
-[2018.10.05-03.02.36:659][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018913a133c0, Size=208, Default__BodyGuard_C Function /Engine/Transient.REINST_BodyGuard_C_4:ExecuteUbergraph_BodyGuard
-[2018.10.05-03.02.36:668][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018913a109c0, Size=208, Default__BodyGuard_C Function /Game/AI/BodyGuard.BodyGuard_C:ExecuteUbergraph_BodyGuard
-[2018.10.05-03.02.36:802][362]LogUObjectGlobals: Created PersistentFrame Addr=0x000001894213b4c0, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.10.05-03.02.36:809][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001894213b4c0, Size=296
-[2018.10.05-03.02.36:809][362]LogUObjectGlobals: Created PersistentFrame Addr=0x000001894213b4c0, Size=296, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_8:ExecuteUbergraph_ThirdPersonCharacter
-[2018.10.05-03.02.36:816][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018942139bc0, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.10.05-03.02.36:830][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018913865ec0, Size=224, Default__BP_Camera_C Function /Game/ThirdPersonBP/Blueprints/BP_Camera.BP_Camera_C:ExecuteUbergraph_BP_Camera
-[2018.10.05-03.02.36:834][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018913865ec0, Size=224
-[2018.10.05-03.02.36:834][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018913865ec0, Size=224, Default__BP_Camera_C Function /Engine/Transient.REINST_BP_Camera_C_10:ExecuteUbergraph_BP_Camera
-[2018.10.05-03.02.36:836][362]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189138649c0, Size=224, Default__BP_Camera_C Function /Game/ThirdPersonBP/Blueprints/BP_Camera.BP_Camera_C:ExecuteUbergraph_BP_Camera
-[2018.10.05-03.02.36:954][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018943e1f740, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.02.36:961][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018943e1f740, Size=392
-[2018.10.05-03.02.36:962][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018943e1f740, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_17:ExecuteUbergraph_Level_2
-[2018.10.05-03.02.36:972][362]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018943e1d280, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.02.37:544][362]LogSkeletalMesh: Skeletal Mesh found in DDC [19.572388ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2018.10.05-03.02.37:566][362]LogAIModule: Creating AISystem for world Level_2
-[2018.10.05-03.02.37:660][362]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.05-03.02.37:689][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018916f23440, Size=64
-[2018.10.05-03.02.37:690][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018913a133c0, Size=208
-[2018.10.05-03.02.37:690][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001894213b4c0, Size=296
-[2018.10.05-03.02.37:690][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018913865ec0, Size=224
-[2018.10.05-03.02.37:690][362]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018943e1f740, Size=392
-[2018.10.05-03.02.37:740][362]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.05-03.02.37:811][362]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.604ms to complete.
-[2018.10.05-03.02.37:811][362]LogFileHelpers: Loading map 'Level_2' took 1.546
-[2018.10.05-03.02.37:815][362]LogSlate: Window 'Open Level' being destroyed
-[2018.10.05-03.03.37:350][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.03.40:069][707]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
-[2018.10.05-03.03.40:906][744]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.03.43:852][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.03.51:140][276]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2018.10.05-03.03.52:480][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.03.53:182][391]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.03.57:281][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.03.58:219][634]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.03.58:252][634]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0005 seconds. Added 15 classes and 2 folders.
-[2018.10.05-03.03.58:265][634]LogInit: Transaction tracking system initialized
-[2018.10.05-03.03.58:268][634]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.04.15:324][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.04.18:641][606]LogSlate: Window 'CameraRotation3' being destroyed
-[2018.10.05-03.04.20:667][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.04.41:638][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.04.42:558][581]Cmd: DELETE
-[2018.10.05-03.04.42:558][581]Cmd: ACTOR DELETE
-[2018.10.05-03.04.42:586][581]LogEditorActor: Actor CameraRotation3 is referenced by BP_Camera.
-[2018.10.05-03.04.44:765][581]LogSlate: Window 'Message' being destroyed
-[2018.10.05-03.04.44:795][581]LogEditorActor: Deleted Actor: MatineeActor
-[2018.10.05-03.04.44:810][581]LogExit: Transaction tracking system shut down
-[2018.10.05-03.04.44:812][581]LogEditorActor: Deleted 1 Actors (2.242 secs)
-[2018.10.05-03.04.46:506][683]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.04.59:212][435]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.05.03:401][676]Cmd: TRANSACTION UNDO
-[2018.10.05-03.05.03:401][676]LogEditorTransaction: Undo Rotate Actors
-[2018.10.05-03.05.04:314][727]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.05.06:437][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.05.07:529][916]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.05.17:687][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.05.24:522][923]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.05.24:771][937]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.05.26:078][ 15]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.05.27:329][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.05.28:423][149]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.05.56:728][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.06.00:849][ 84]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.06.02:608][183]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.06.03:660][246]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.06.16:341][999]LogEditorViewport: Clicking Background
-[2018.10.05-03.06.17:281][ 55]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.06.17:795][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.06.18:689][135]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.07.03:533][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.07.05:186][886]LogInit: Transaction tracking system initialized
-[2018.10.05-03.07.05:186][886]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.07.05:199][886]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.07.06:783][956]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.07.06:797][956]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.07.24:470][769]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.07.24:542][773]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.07.25:668][835]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.07.36:996][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.07.37:832][544]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.07.37:844][544]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.08.25:848][982]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.08.35:876][563]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.08.55:764][723]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.09.00:635][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.09.09:182][358]Cmd: TRANSACTION UNDO
-[2018.10.05-03.09.09:182][358]LogEditorTransaction: Undo Add Key
-[2018.10.05-03.09.11:534][495]Cmd: TRANSACTION UNDO
-[2018.10.05-03.09.11:534][495]LogEditorTransaction: Undo NewTrack
-[2018.10.05-03.09.11:851][514]Cmd: TRANSACTION UNDO
-[2018.10.05-03.09.11:851][514]LogEditorTransaction: Undo New Group
-[2018.10.05-03.09.13:891][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.09.13:976][634]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.09.15:116][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.09.16:347][767]Cmd: DELETE
-[2018.10.05-03.09.16:348][767]Cmd: ACTOR DELETE
-[2018.10.05-03.09.16:357][767]LogEditorActor: Actor MatineeActor is referenced by BP_Camera.
-[2018.10.05-03.09.17:686][767]LogSlate: Window 'Message' being destroyed
-[2018.10.05-03.09.17:699][767]LogEditorActor: Deleted Actor: MatineeActor
-[2018.10.05-03.09.17:714][767]LogExit: Transaction tracking system shut down
-[2018.10.05-03.09.17:718][767]LogEditorActor: Deleted 1 Actors (1.369 secs)
-[2018.10.05-03.09.20:393][926]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.09.21:526][993]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.09.23:301][ 49]LogSlate: Window 'Save Content' being destroyed
-[2018.10.05-03.09.23:317][ 49]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BossRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.05-03.09.23:329][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.09.23:383][ 49]LightingResults: New page: Lighting Build
-[2018.10.05-03.09.23:385][ 49]LoadErrors: New page: Loading map: Level_2_BossRoom.umap
-[2018.10.05-03.09.23:396][ 49]MapCheck: New page: Map Check
-[2018.10.05-03.09.23:396][ 49]LightingResults: New page: Lighting Build
-[2018.10.05-03.09.23:416][ 49]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018943e1d280, Size=392
-[2018.10.05-03.09.23:575][ 49]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018946983980, Size=32, Default__Level_2_BossRoom_C Function /Game/ThirdPersonBP/Maps/Level_2_BossRoom.Level_2_BossRoom_C:ExecuteUbergraph_Level_2_BossRoom
-[2018.10.05-03.09.23:577][ 49]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018946983980, Size=32
-[2018.10.05-03.09.23:577][ 49]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018946983980, Size=32, Default__Level_2_BossRoom_C Function /Engine/Transient.REINST_Level_2_BossRoom_C_19:ExecuteUbergraph_Level_2_BossRoom
-[2018.10.05-03.09.23:579][ 49]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018946982c40, Size=32, Default__Level_2_BossRoom_C Function /Game/ThirdPersonBP/Maps/Level_2_BossRoom.Level_2_BossRoom_C:ExecuteUbergraph_Level_2_BossRoom
-[2018.10.05-03.09.23:698][ 49]LogAIModule: Creating AISystem for world Level_2_BossRoom
-[2018.10.05-03.09.23:709][ 49]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.05-03.09.23:725][ 49]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018946983980, Size=32
-[2018.10.05-03.09.23:768][ 49]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.05-03.09.23:851][ 49]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.694ms to complete.
-[2018.10.05-03.09.23:851][ 49]LogFileHelpers: Loading map 'Level_2_BossRoom' took 0.537
-[2018.10.05-03.09.23:854][ 49]LogSlate: Window 'Open Level' being destroyed
-[2018.10.05-03.09.25:975][111]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.09.26:768][157]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.09.26:852][157]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018946982c40, Size=32
-[2018.10.05-03.09.26:852][157]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018923b522e0, Size=32, Default__Level_2_BossRoom_C Function /Engine/Transient.REINST_Level_2_BossRoom_C_23:ExecuteUbergraph_Level_2_BossRoom
-[2018.10.05-03.09.26:854][157]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018923b52d00, Size=32, Default__Level_2_BossRoom_C Function /Game/ThirdPersonBP/Maps/Level_2_BossRoom.Level_2_BossRoom_C:ExecuteUbergraph_Level_2_BossRoom
-[2018.10.05-03.09.27:001][157]LogSavePackage: Save=156.88ms
-[2018.10.05-03.09.27:004][157]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_2_BossRoomB7B46E8942073D0EABB080A38574AB10.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BossRoom.umap'
-[2018.10.05-03.09.27:013][157]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BossRoom.umap
-[2018.10.05-03.09.27:094][157]LogSavePackage: Save=10.10ms
-[2018.10.05-03.09.27:094][157]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_2_BossRoom_BuiltDataEC9268884A03BF34BF8B4FA376A3EA97.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BossRoom_BuiltData.uasset'
-[2018.10.05-03.09.27:095][157]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BossRoom_BuiltData.uasset
-[2018.10.05-03.09.29:433][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.09.31:338][402]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018923b522e0, Size=32
-[2018.10.05-03.09.31:341][402]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.05-03.09.31:381][402]LightingResults: New page: Lighting Build
-[2018.10.05-03.09.31:382][402]LoadErrors: New page: Loading map: Level_2.umap
-[2018.10.05-03.09.31:383][402]MapCheck: New page: Map Check
-[2018.10.05-03.09.31:383][402]LightingResults: New page: Lighting Build
-[2018.10.05-03.09.31:395][402]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018923b52d00, Size=32
-[2018.10.05-03.09.31:419][402]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018942503900, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.09.31:424][402]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018942503900, Size=392
-[2018.10.05-03.09.31:424][402]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018942503900, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_25:ExecuteUbergraph_Level_2
-[2018.10.05-03.09.31:433][402]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189469dcf00, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.09.31:536][402]LogAIModule: Creating AISystem for world Level_2
-[2018.10.05-03.09.31:567][402]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.05-03.09.31:586][402]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018942503900, Size=392
-[2018.10.05-03.09.31:630][402]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.05-03.09.31:709][402]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.582ms to complete.
-[2018.10.05-03.09.31:709][402]LogFileHelpers: Loading map 'Level_2' took 0.369
-[2018.10.05-03.09.31:712][402]LogSlate: Window 'Open Level' being destroyed
-[2018.10.05-03.09.32:923][470]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.09.35:679][634]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.09.36:036][653]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.09.44:195][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.09.46:172][181]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.09.46:185][181]LogInit: Transaction tracking system initialized
-[2018.10.05-03.09.46:185][181]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.10.01:029][966]LogSlate: Window 'CameraRotation3' being destroyed
-[2018.10.05-03.10.02:798][ 64]Cmd: DELETE
-[2018.10.05-03.10.02:798][ 64]Cmd: ACTOR DELETE
-[2018.10.05-03.10.02:807][ 64]LogEditorActor: Actor CameraRotation3 is referenced by BP_Camera.
-[2018.10.05-03.10.06:066][ 64]LogSlate: Window 'Message' being destroyed
-[2018.10.05-03.10.06:078][ 64]LogEditorActor: Deleted Actor: MatineeActor
-[2018.10.05-03.10.06:093][ 64]LogExit: Transaction tracking system shut down
-[2018.10.05-03.10.06:094][ 64]LogEditorActor: Deleted 1 Actors (3.295 secs)
-[2018.10.05-03.10.12:855][465]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.10.13:934][525]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.10.15:480][616]LogInit: Transaction tracking system initialized
-[2018.10.05-03.10.15:480][616]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.10.15:492][616]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.10.19:996][858]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.10.20:946][908]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.10.30:673][469]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.10.48:781][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.11.14:095][927]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.11.36:538][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.11.47:230][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.12.07:293][838]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.12.12:795][146]Cmd: TRANSACTION UNDO
-[2018.10.05-03.12.12:795][146]LogEditorTransaction: Undo Move Loop End Marker
-[2018.10.05-03.12.17:508][406]Cmd: TRANSACTION UNDO
-[2018.10.05-03.12.17:508][406]LogEditorTransaction: Undo Delete Selected Keys
-[2018.10.05-03.12.17:892][429]Cmd: TRANSACTION UNDO
-[2018.10.05-03.12.17:892][429]LogEditorTransaction: Undo Add Key
-[2018.10.05-03.12.18:280][452]Cmd: TRANSACTION UNDO
-[2018.10.05-03.12.18:280][452]LogEditorTransaction: Undo Move Loop End Marker
-[2018.10.05-03.12.20:206][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.12.20:274][545]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.12.20:282][545]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.12.27:855][903]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.12.27:867][903]LogInit: Transaction tracking system initialized
-[2018.10.05-03.12.27:868][903]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.12.42:465][540]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.12.50:045][960]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.12.56:847][331]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.12.56:961][337]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.13.04:472][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.13.06:529][873]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.13.09:965][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.13.15:615][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.13.20:987][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.13.27:010][906]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.13.40:625][663]Cmd: TRANSACTION UNDO
-[2018.10.05-03.13.40:625][663]LogEditorTransaction: Undo Delete Selected Keys
-[2018.10.05-03.13.50:401][173]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.13.55:925][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
-[2018.10.05-03.13.57:404][549]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2018.10.05-03.13.58:269][597]Cmd: TRANSACTION UNDO
-[2018.10.05-03.13.58:269][597]LogEditorTransaction: Undo Update Key Frame
-[2018.10.05-03.13.58:843][631]Cmd: TRANSACTION UNDO
-[2018.10.05-03.13.58:843][631]LogEditorTransaction: Undo Add Key
-[2018.10.05-03.13.59:765][685]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.14.10:138][263]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.14.13:464][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.14.23:459][949]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.14.26:311][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.14.40:075][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.14.41:414][963]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.14.49:324][424]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.14.55:855][783]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.15.03:386][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.15.04:518][284]LogEditorViewport: Clicking on Actor (LMB): BP_Stand_C (BP_Stand)
-[2018.10.05-03.15.05:293][326]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.15.10:954][650]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.15.25:251][348]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.15.30:890][646]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.15.32:916][760]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.15.33:422][786]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.15.42:043][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.15.43:600][343]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.15.45:859][466]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.15.46:328][490]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.15.46:788][514]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.15.53:890][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.15.55:525][960]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.15.58:307][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
-[2018.10.05-03.16.11:277][823]LogEditorViewport: Clicking on Actor (context menu): BP_Camera_C (BP_Camera)
-[2018.10.05-03.16.11:324][823]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.16.12:222][874]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.16.13:353][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.16.13:903][940]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.10.05-03.16.14:293][940]LogUObjectGlobals: Created PersistentFrame Addr=0x000001898d4ce5f0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.10.05-03.16.14:296][940]LogUObjectGlobals: Created PersistentFrame Addr=0x000001898d4ce5e8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.10.05-03.16.14:920][940]LogSlate: Took 0.005008 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.10.05-03.16.19:387][130]LogRenderer: Reallocating scene render targets to support 956x540 Format 10 NumSamples 1 (Frame:1).
-[2018.10.05-03.16.27:754][490]LogSlate: Took 0.007234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.10.05-03.17.31:443][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.17.31:545][261]BlueprintLog: New page: Compile BP_Camera
-[2018.10.05-03.17.31:554][261]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189138649c0, Size=224
-[2018.10.05-03.17.31:554][261]LogUObjectGlobals: Created PersistentFrame Addr=0x000001899ded8640, Size=224, Default__BP_Camera_C Function /Engine/Transient.REINST_BP_Camera_C_41:ExecuteUbergraph_BP_Camera
-[2018.10.05-03.17.31:558][261]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189911d8aa0, Size=224, Default__BP_Camera_C Function /Game/ThirdPersonBP/Blueprints/BP_Camera.BP_Camera_C:ExecuteUbergraph_BP_Camera
-[2018.10.05-03.17.32:143][261]LogExit: Transaction tracking system shut down
-[2018.10.05-03.17.41:818][677]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.18.01:653][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.18.01:736][735]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.18.01:747][735]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.18.13:156][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.18.13:299][410]LogExit: Transaction tracking system shut down
-[2018.10.05-03.18.13:300][410]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001899ded8640, Size=224
-[2018.10.05-03.18.13:343][410]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189469dcf00, Size=392
-[2018.10.05-03.18.13:343][410]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189420d7c80, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_45:ExecuteUbergraph_Level_2
-[2018.10.05-03.18.13:353][410]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
-[2018.10.05-03.18.13:355][410]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189469dcf00, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.18.13:357][410]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [0982.78] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 26 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
-[2018.10.05-03.18.13:761][410]LogSavePackage: Save=441.16ms
-[2018.10.05-03.18.13:762][410]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_2EEAF4C204511D7BAEF0C54BCE65D0117.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
-[2018.10.05-03.18.13:769][410]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
-[2018.10.05-03.18.14:219][410]LogSavePackage: Save=359.83ms
-[2018.10.05-03.18.14:219][410]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_2_BuiltData29A1C5F24C6885A1B24DBA937272F7AE.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BuiltData.uasset'
-[2018.10.05-03.18.14:221][410]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BuiltData.uasset
-[2018.10.05-03.18.14:904][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.10.05-03.18.15:533][478]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2018.10.05-03.18.16:250][516]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.18.23:610][949]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.18.23:975][968]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.18.24:391][990]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.18.24:937][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.10.05-03.18.25:435][ 44]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.18.26:778][120]LogEditorViewport: Clicking on Actor (LMB): BP_Stand_C (BP_Stand)
-[2018.10.05-03.18.27:601][165]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.20.47:946][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.20.50:787][658]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.20.50:798][658]LogInit: Transaction tracking system initialized
-[2018.10.05-03.20.50:799][658]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.21.11:571][745]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.21.11:685][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
-[2018.10.05-03.21.12:246][778]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.21.30:097][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.21.35:849][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.21.35:958][ 68]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.21.37:098][127]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.21.40:568][314]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.22.32:628][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.22.43:446][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.22.43:596][603]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.23.01:708][610]Cmd: TRANSACTION UNDO
-[2018.10.05-03.23.01:708][610]LogEditorTransaction: Undo Add Key
-[2018.10.05-03.23.02:990][681]LogEditorViewport: Clicking on Actor (LMB): BP_Stand_C (BP_Stand)
-[2018.10.05-03.23.03:868][728]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.23.42:171][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.23.51:476][218]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.23.54:239][348]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.23.58:292][578]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.23.58:321][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
-[2018.10.05-03.23.58:486][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
-[2018.10.05-03.23.59:116][618]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.24.16:320][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.24.25:565][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.24.25:683][ 53]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.24.26:425][ 94]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.24.30:501][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.24.30:603][295]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.24.30:609][295]LogSlate: Window 'MatineeActor*' being destroyed
-[2018.10.05-03.24.31:626][348]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.24.34:907][542]LogEditorViewport: Clicking on Actor (context menu): BP_Camera_C (BP_Camera)
-[2018.10.05-03.24.34:939][542]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.24.46:131][ 48]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.24.46:844][ 89]Cmd: DELETE
-[2018.10.05-03.24.46:844][ 89]Cmd: ACTOR DELETE
-[2018.10.05-03.24.46:855][ 89]LogEditorActor: Actor BP_Camera is referenced by MatineeActor.
-[2018.10.05-03.24.46:863][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.24.48:739][ 89]LogSlate: Window 'Message' being destroyed
-[2018.10.05-03.24.48:750][ 89]LogEditorActor: Deleted Actor: BP_Camera_C
-[2018.10.05-03.24.48:776][ 89]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189420d7c80, Size=392
-[2018.10.05-03.24.48:777][ 89]LogExit: Transaction tracking system shut down
-[2018.10.05-03.24.48:780][ 89]LogEditorActor: Deleted 1 Actors (1.935 secs)
-[2018.10.05-03.24.52:013][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.25.17:080][680]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.25.21:567][939]LogEditorViewport: Clicking on Actor (LMB): BP_Stand_C (BP_Stand)
-[2018.10.05-03.25.22:957][ 18]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.25.31:021][491]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2018.10.05-03.25.36:892][837]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.25.50:139][613]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.25.52:857][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.25.55:007][899]LogInit: Transaction tracking system initialized
-[2018.10.05-03.25.55:007][899]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.25.56:787][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.25.59:671][149]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.26.00:480][188]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.26.07:401][591]LogEditorViewport: Clicking on Actor (context menu): BP_Camera_C (BP_Camera)
-[2018.10.05-03.26.07:445][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.26.08:557][641]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.26.09:718][693]LogSlate: Window 'Merge Actors' being destroyed
-[2018.10.05-03.26.09:731][693]LogSlate: Window 'Merge Actors' being destroyed
-[2018.10.05-03.26.10:796][752]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.26.19:772][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.26.58:752][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.26.58:858][261]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.27.02:074][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.27.07:686][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.27.29:552][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.27.33:294][107]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.27.42:913][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.27.47:204][836]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.27.52:142][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.28.10:925][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.28.13:360][875]LogSlate: Window 'Message' being destroyed
-[2018.10.05-03.28.13:377][875]LogSlate: Window 'MatineeActor1*' being destroyed
-[2018.10.05-03.28.13:554][875]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189469dcf00, Size=392
-[2018.10.05-03.28.13:554][875]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018985e24f00, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_49:ExecuteUbergraph_Level_2
-[2018.10.05-03.28.13:562][875]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
-[2018.10.05-03.28.13:564][875]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189b1c5f3c0, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.28.13:566][875]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [1582.99] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 21 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
-[2018.10.05-03.28.13:963][875]LogSavePackage: Save=428.91ms
-[2018.10.05-03.28.13:964][875]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_2A155681742A6BF5859E22F82C0AEE6CC.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
-[2018.10.05-03.28.13:969][875]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
-[2018.10.05-03.28.14:012][875]LogFileHelpers: Saving map 'Level_2' took 0.630
-[2018.10.05-03.28.15:737][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.28.15:820][975]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.05-03.28.15:847][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
-[2018.10.05-03.28.15:850][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.05-03.28.15:857][975]PIE: New page: PIE session: Level_2 (Oct 5, 2018, 11:28:15 PM)
-[2018.10.05-03.28.15:857][975]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2
-[2018.10.05-03.28.15:886][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028319s)
-[2018.10.05-03.28.15:888][975]LogAIModule: Creating AISystem for world Level_2
-[2018.10.05-03.28.15:889][975]LogPlayLevel: PIE: World Init took: (0.003253s)
-[2018.10.05-03.28.15:890][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Level_2.Level_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2 (0.032287s)
-[2018.10.05-03.28.15:913][975]LogExit: Transaction tracking system shut down
-[2018.10.05-03.28.15:913][975]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018985e24f00, Size=392
-[2018.10.05-03.28.15:920][975]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.05-03.28.15:930][975]LogInit: FAudioDevice initialized.
-[2018.10.05-03.28.15:993][975]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.10.05-03.28.16:019][975]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.10.05-13.28.16
-[2018.10.05-03.28.16:049][975]LogWorld: Bringing up level for play took: 0.042999
-[2018.10.05-03.28.16:069][975]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2018.10.05-03.28.16:083][975]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2 1.185
-[2018.10.05-03.28.16:084][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
-[2018.10.05-03.28.18:882][138]LogBlueprintUserMessages: [BP_Camera4] Gotcha
-[2018.10.05-03.28.18:883][138]LogBlueprintUserMessages: [BP_Camera4] true
-[2018.10.05-03.28.19:466][173]LogBlueprintUserMessages: [BP_Camera4] Gotcha
-[2018.10.05-03.28.19:466][173]LogBlueprintUserMessages: [BP_Camera4] true
-[2018.10.05-03.28.19:719][188]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.20:217][218]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.20:718][248]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.21:218][278]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.21:719][308]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.22:220][338]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.22:669][365]LogBlueprintUserMessages: [BP_Camera3] Gotcha
-[2018.10.05-03.28.22:669][365]LogBlueprintUserMessages: [BP_Camera3] true
-[2018.10.05-03.28.22:720][368]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.23:221][398]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.23:719][428]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.23:820][434]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
-	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_2
-	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:0065
-[2018.10.05-03.28.23:820][434]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
-[2018.10.05-03.28.24:220][458]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.24:385][468]LogBlueprintUserMessages: [BP_Camera2] Gotcha
-[2018.10.05-03.28.24:385][468]LogBlueprintUserMessages: [BP_Camera2] true
-[2018.10.05-03.28.24:719][488]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.25:219][518]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.25:719][548]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.26:219][578]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.26:719][608]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.27:219][638]LogBlueprintUserMessages: [BodyGuard_29] Chasing
-[2018.10.05-03.28.27:487][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
-[2018.10.05-03.28.27:537][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
-[2018.10.05-03.28.30:712][834]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.28.33:073][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.28.34:196][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.28.37:327][ 31]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.28.37:341][ 31]LogInit: Transaction tracking system initialized
-[2018.10.05-03.28.37:342][ 31]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.28.39:065][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.28.59:783][863]LogSlate: Window 'MatineeActor1' being destroyed
-[2018.10.05-03.28.59:794][863]LogSlate: Window 'MatineeActor1' being destroyed
-[2018.10.05-03.29.03:383][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.29.08:162][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.29.11:996][570]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera2)
-[2018.10.05-03.29.12:868][621]Cmd: DELETE
-[2018.10.05-03.29.12:868][621]Cmd: ACTOR DELETE
-[2018.10.05-03.29.12:876][621]LogEditorActor: Deleted Actor: BP_Camera_C
-[2018.10.05-03.29.12:895][621]LogExit: Transaction tracking system shut down
-[2018.10.05-03.29.12:896][621]LogEditorActor: Deleted 1 Actors (0.028 secs)
-[2018.10.05-03.29.14:508][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.29.48:024][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.29.48:165][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189b1c5f3c0, Size=392
-[2018.10.05-03.29.48:165][667]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189b25ab3c0, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_55:ExecuteUbergraph_Level_2
-[2018.10.05-03.29.48:171][667]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
-[2018.10.05-03.29.48:173][667]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189b25aa080, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.29.48:174][667]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [1677.60] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 21 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
-[2018.10.05-03.29.48:580][667]LogSavePackage: Save=436.46ms
-[2018.10.05-03.29.48:580][667]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_2B440E569478B559B764FFAA6D7337BC8.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
-[2018.10.05-03.29.48:584][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
-[2018.10.05-03.29.48:909][667]LogSavePackage: Save=253.02ms
-[2018.10.05-03.29.48:909][667]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_2_BuiltData89079C09456B7A7659C193B82C32DC72.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BuiltData.uasset'
-[2018.10.05-03.29.48:912][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2_BuiltData.uasset
-[2018.10.05-03.30.18:965][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.31.33:469][528]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.31.34:718][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.31.38:334][599]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.31.38:364][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.31.39:772][599]LogSlate: Window 'Save Asset As' being destroyed
-[2018.10.05-03.31.45:336][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.31.51:298][283]LogEditorActor: Deleted Actor: MatineeActor
-[2018.10.05-03.31.51:315][283]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189b25ab3c0, Size=392
-[2018.10.05-03.31.51:316][283]LogEditorActor: Deleted 1 Actors (0.027 secs)
-[2018.10.05-03.31.58:945][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.32.00:704][829]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.32.07:326][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.32.08:486][285]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.32.09:840][285]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.32.09:854][285]LogInit: Transaction tracking system initialized
-[2018.10.05-03.32.09:854][285]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.32.10:814][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.32.19:403][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.32.23:664][985]LogSlate: Window 'MatineeActor1*' being destroyed
-[2018.10.05-03.32.23:679][985]LogSlate: Window 'MatineeActor1*' being destroyed
-[2018.10.05-03.32.51:573][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.33.10:499][633]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
-[2018.10.05-03.33.25:647][492]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Walls)
-[2018.10.05-03.33.25:715][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.33.26:886][549]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2018.10.05-03.33.30:102][731]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera2)
-[2018.10.05-03.33.39:279][271]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.33.40:962][369]LogInit: Transaction tracking system initialized
-[2018.10.05-03.33.40:962][369]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.33.42:532][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.33.48:414][769]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.33.48:515][775]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera2)
-[2018.10.05-03.33.49:396][822]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.34.17:669][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.34.28:653][981]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.34.32:511][191]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.34.39:526][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.34.44:955][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.34.54:394][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.35.14:927][  8]LogSlate: Window 'Message' being destroyed
-[2018.10.05-03.35.14:937][  8]LogSlate: Window 'MatineeActor2*' being destroyed
-[2018.10.05-03.35.15:054][  8]LogExit: Transaction tracking system shut down
-[2018.10.05-03.35.15:096][  8]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000189b25aa080, Size=392
-[2018.10.05-03.35.15:096][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x000001896021f580, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_59:ExecuteUbergraph_Level_2
-[2018.10.05-03.35.15:102][  8]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
-[2018.10.05-03.35.15:104][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x000001896021dec0, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.35.15:105][  8]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [2004.53] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 20 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
-[2018.10.05-03.35.15:506][  8]LogSavePackage: Save=431.32ms
-[2018.10.05-03.35.15:507][  8]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_24064D32F40C60CDFD72166AB992EF38D.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
-[2018.10.05-03.35.15:512][  8]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
-[2018.10.05-03.35.15:547][  8]LogFileHelpers: Saving map 'Level_2' took 0.605
-[2018.10.05-03.35.17:989][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.35.19:248][211]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.35.20:192][211]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.35.20:205][211]LogInit: Transaction tracking system initialized
-[2018.10.05-03.35.20:205][211]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.35.21:488][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.35.28:530][645]LogSlate: Window 'MatineeActor2' being destroyed
-[2018.10.05-03.35.28:544][645]LogSlate: Window 'MatineeActor2' being destroyed
-[2018.10.05-03.35.39:554][270]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
-[2018.10.05-03.35.39:973][292]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
-[2018.10.05-03.35.41:302][370]Cmd: DELETE
-[2018.10.05-03.35.41:302][370]Cmd: ACTOR DELETE
-[2018.10.05-03.35.41:312][370]LogEditorActor: Deleted Actor: BP_Camera_C
-[2018.10.05-03.35.41:330][370]LogExit: Transaction tracking system shut down
-[2018.10.05-03.35.41:330][370]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001896021f580, Size=392
-[2018.10.05-03.35.41:330][370]LogExit: Transaction tracking system shut down
-[2018.10.05-03.35.41:331][370]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2018.10.05-03.35.42:729][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.36.18:273][532]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2018.10.05-03.36.19:021][571]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.36.20:535][658]LogInit: Transaction tracking system initialized
-[2018.10.05-03.36.20:535][658]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.36.21:675][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.36.23:068][780]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
-[2018.10.05-03.36.30:916][232]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Walls)
-[2018.10.05-03.36.30:978][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.36.32:190][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
-[2018.10.05-03.36.39:318][696]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
-[2018.10.05-03.36.56:798][642]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
-[2018.10.05-03.36.57:503][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.37.22:205][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.37.22:316][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
-[2018.10.05-03.37.24:221][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.37.32:046][625]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.37.34:236][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.37.38:367][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.37.43:696][238]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.37.49:818][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.37.53:877][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.37.56:599][944]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.37.58:229][ 33]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.38.08:947][622]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.38.14:348][902]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.38.18:860][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.38.24:883][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.38.26:209][444]LogSlate: Window 'Message' being destroyed
-[2018.10.05-03.38.26:220][444]LogSlate: Window 'MatineeActor3*' being destroyed
-[2018.10.05-03.38.26:361][444]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001896021dec0, Size=392
-[2018.10.05-03.38.26:361][444]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018916e14480, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_63:ExecuteUbergraph_Level_2
-[2018.10.05-03.38.26:367][444]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
-[2018.10.05-03.38.26:369][444]LogUObjectGlobals: Created PersistentFrame Addr=0x000001896021ee80, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.38.26:370][444]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [2195.79] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 18 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
-[2018.10.05-03.38.26:776][444]LogSavePackage: Save=435.52ms
-[2018.10.05-03.38.26:776][444]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_265D5B340420FEA8DFBB53A83E427EE57.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
-[2018.10.05-03.38.26:781][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
-[2018.10.05-03.38.26:816][444]LogFileHelpers: Saving map 'Level_2' took 0.593
-[2018.10.05-03.38.35:830][963]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.38.38:640][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.38.39:859][127]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
-[2018.10.05-03.38.39:871][127]LogInit: Transaction tracking system initialized
-[2018.10.05-03.38.39:871][127]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.38.41:148][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.38.49:706][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.38.51:071][745]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.38.58:238][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.38.58:669][162]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.05-03.39.01:456][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.39.06:045][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.39.06:112][548]LogSlate: Window 'MatineeActor1' being destroyed
-[2018.10.05-03.39.06:122][548]LogSlate: Window 'MatineeActor1' being destroyed
-[2018.10.05-03.39.19:884][326]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
-[2018.10.05-03.39.20:769][376]Cmd: DELETE
-[2018.10.05-03.39.20:769][376]Cmd: ACTOR DELETE
-[2018.10.05-03.39.20:778][376]LogEditorActor: Deleted Actor: BP_Camera_C
-[2018.10.05-03.39.20:798][376]LogExit: Transaction tracking system shut down
-[2018.10.05-03.39.20:798][376]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018916e14480, Size=392
-[2018.10.05-03.39.20:798][376]LogExit: Transaction tracking system shut down
-[2018.10.05-03.39.20:799][376]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2018.10.05-03.39.21:922][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.39.36:041][246]Cmd: TRANSACTION UNDO
-[2018.10.05-03.39.36:041][246]LogEditorTransaction: Undo Scale Actors
-[2018.10.05-03.39.53:520][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2018.10.05-03.39.54:363][324]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
-[2018.10.05-03.40.01:343][732]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.40.02:557][801]LogInit: Transaction tracking system initialized
-[2018.10.05-03.40.02:557][801]EditorErrors: New page: Matinee Initialization
-[2018.10.05-03.40.03:583][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.40.06:005][980]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
-[2018.10.05-03.40.09:080][127]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.40.48:518][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.40.54:223][638]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.41.03:242][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.41.07:163][368]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.41.16:831][904]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.41.29:856][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.41.35:146][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.41.43:688][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.41.47:207][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.41.57:740][173]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.42.01:334][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.42.06:757][667]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.10.05-03.42.12:512][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.05-03.42.31:810][948]LogSlate: Window 'Message' being destroyed
-[2018.10.05-03.42.31:824][948]LogSlate: Window 'MatineeActor4*' being destroyed
-[2018.10.05-03.42.31:987][948]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001896021ee80, Size=392
-[2018.10.05-03.42.31:987][948]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189602cbe40, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_67:ExecuteUbergraph_Level_2
-[2018.10.05-03.42.31:992][948]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
-[2018.10.05-03.42.31:994][948]LogUObjectGlobals: Created PersistentFrame Addr=0x00000189602ca400, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
-[2018.10.05-03.42.31:995][948]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [2441.42] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 18 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
-[2018.10.05-03.42.32:391][948]LogSavePackage: Save=423.13ms
-[2018.10.05-03.42.32:391][948]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_279D770B24989689B560CB48245A56A8C.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
-[2018.10.05-03.42.32:394][948]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
-[2018.10.05-03.42.32:428][948]LogFileHelpers: Saving map 'Level_2' took 0.600
+[2018.10.08-03.56.47:858][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.08-03.56.47:858][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.08-03.56.47:881][  0]LogInit: Computer: DESKTOP-8AFEPG4
+[2018.10.08-03.56.47:881][  0]LogInit: User: Haojun
+[2018.10.08-03.56.47:881][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.10.08-03.56.47:881][  0]LogInit: High frequency timer resolution =2.156246 MHz
+[2018.10.08-03.56.47:881][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2018.10.08-03.56.47:881][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.08-03.56.47:881][  0]LogMemory: Process Physical Memory: 275.97 MB used, 275.97 MB peak
+[2018.10.08-03.56.47:881][  0]LogMemory: Process Virtual Memory: 272.23 MB used, 272.23 MB peak
+[2018.10.08-03.56.47:881][  0]LogMemory: Physical Memory: 4734.55 MB used,  3197.33 MB free, 7931.89 MB total
+[2018.10.08-03.56.47:881][  0]LogMemory: Virtual Memory: 4821.48 MB used,  3197.33 MB free, 134217728.00 MB total
+[2018.10.08-03.56.47:987][  0]LogInit: Using OS detected language (en-US).
+[2018.10.08-03.56.47:987][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.08-03.56.48:039][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.08-03.56.48:466][  0]LogStreaming: Display: Took  0.478s to EndInitTextLocalization.
+[2018.10.08-03.56.48:466][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.08-03.56.48:537][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.08-03.56.48:537][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.08-03.56.50:476][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.08-03.56.50:534][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (Feature Level 11_0)
+[2018.10.08-03.56.50:534][  0]LogD3D11RHI:       4021/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.08-03.56.50:547][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.10.08-03.56.50:547][  0]LogD3D11RHI:       128/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.08-03.56.50:548][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.08-03.56.50:548][  0]LogD3D11RHI:       0/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.08-03.56.50:548][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.08-03.56.50:570][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.08-03.56.50:570][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.10.08-03.56.50:570][  0]LogWindows: EnumDisplayDevices:
+[2018.10.08-03.56.50:570][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2018.10.08-03.56.50:570][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.08-03.56.50:571][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.08-03.56.50:571][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.08-03.56.50:571][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti with Max-Q Design
+[2018.10.08-03.56.50:571][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.08-03.56.50:571][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.08-03.56.50:571][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2018.10.08-03.56.50:604][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.10.08-03.56.50:604][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.10.08-03.56.50:604][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.08-03.56.50:622][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.08-03.56.50:623][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Intermediate/Shaders/WorkingDirectory/16272/).
+[2018.10.08-03.56.50:623][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Haojun/AppData/Local/Temp/UnrealShaderWorkingDir/F1CD1C9E4607334314A784A36D33789E/'.
+[2018.10.08-03.56.51:151][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.08-03.56.51:165][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.08-03.56.51:180][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.08-03.56.51:191][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.08-03.56.51:206][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.08-03.56.51:218][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.08-03.56.51:229][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.08-03.56.51:241][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.08-03.56.51:247][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.08-03.56.51:257][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.08-03.56.51:267][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.08-03.56.51:277][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.08-03.56.51:287][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.10.08-03.56.51:297][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.08-03.56.51:307][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.08-03.56.51:328][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.08-03.56.51:328][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.08-03.56.51:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-03.56.51:346][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.08-03.56.51:404][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.08-03.56.51:414][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.08-03.56.51:424][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.08-03.56.51:435][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.08-03.56.51:447][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.08-03.56.51:464][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.08-03.56.51:464][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.08-03.56.51:774][  0]LogXGEController: Cleaning working directory: C:/Users/Haojun/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.08-03.56.51:774][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.08-03.56.51:774][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.08-03.56.51:774][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.08-03.56.53:282][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.08-03.56.53:508][  0]LogDerivedDataCache: Loaded boot cache 0.23s 74MB C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.08-03.56.53:509][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.10.08-03.56.53:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.08-03.56.53:509][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.08-03.56.53:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.08-03.56.53:509][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.08-03.56.53:531][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.08-03.56.53:543][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Haojun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.08-03.56.53:543][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.08-03.56.53:543][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.08-03.56.53:553][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.08-03.56.53:553][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.08-03.56.53:563][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.08-03.56.53:564][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.08-03.56.55:796][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2018.10.08-03.56.56:060][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.08-03.56.56:319][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.08-03.56.56:324][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.08-03.56.56:324][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.08-03.56.56:325][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.08-03.56.56:325][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.08-03.56.56:325][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.08-03.56.56:373][  0]LogNetVersion: FIT3039_Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3493369064)
+[2018.10.08-03.56.57:340][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.087181 seconds
+[2018.10.08-03.56.57:347][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.10.08-03.56.57:347][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.10.08-03.56.57:347][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.08-03.57.01:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.08-03.57.01:324][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.08-03.57.01:673][  0]SourceControl: Source control is disabled
+[2018.10.08-03.57.01:673][  0]SourceControl: Source control is disabled
+[2018.10.08-03.57.01:688][  0]SourceControl: Source control is disabled
+[2018.10.08-03.57.01:703][  0]SourceControl: Source control is disabled
+[2018.10.08-03.57.02:169][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.08-03.57.02:299][  0]LogOcInput: OculusInput pre-init called
+[2018.10.08-03.57.02:427][  0]LogEngine: Initializing Engine...
+[2018.10.08-03.57.02:430][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.08-03.57.02:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.08-03.57.02:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.08-03.57.02:815][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.08-03.57.02:857][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.08-03.57.03:277][  0]LogInit: FAudioDevice initialized.
+[2018.10.08-03.57.03:328][  0]LogDerivedDataCache: Saved boot cache 0.05s 74MB C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.08-03.57.03:350][  0]LogInit: Texture streaming: Enabled
+[2018.10.08-03.57.03:365][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.08-03.57.03:365][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9B870F01-44F2-12EF-776F-7BACBF2A460F}
+[2018.10.08-03.57.03:380][  0]LogInit: Transaction tracking system initialized
+[2018.10.08-03.57.03:408][  0]BlueprintLog: New page: Editor Load
+[2018.10.08-03.57.03:517][  0]LocalizationService: Localization service is disabled
+[2018.10.08-03.57.03:653][  0]LogConsoleResponse: Display: 
+[2018.10.08-03.57.04:006][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.08-03.57.04:006][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.08-03.57.04:006][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.08-03.57.04:006][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.08-03.57.04:006][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.08-03.57.04:011][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/' took 0.02s
+[2018.10.08-03.57.04:429][  0]SourceControl: Source control is disabled
+[2018.10.08-03.57.04:429][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.08-03.57.04:429][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.08-03.57.04:429][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.08-03.57.04:474][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.599ms to complete.
+[2018.10.08-03.57.04:474][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.045
+[2018.10.08-03.57.04:636][  0]LogCollectionManager: Loaded 0 collections in 0.001773 seconds
+[2018.10.08-03.57.04:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Collections/' took 0.01s
+[2018.10.08-03.57.04:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/Developers/Haojun/Collections/' took 0.01s
+[2018.10.08-03.57.04:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/Collections/' took 0.01s
+[2018.10.08-03.57.04:679][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.08-03.57.04:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2452 classes and 558 folders.
+[2018.10.08-03.57.04:694][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.08-03.57.05:087][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.08-03.57.05:098][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.10.08-03.57.05:131][  0]LogSlate: Took 0.010801 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.08-03.57.05:139][  0]LogSlate: Took 0.005606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.08-03.57.05:150][  0]LogSlate: Took 0.005364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.08-03.57.05:284][  0]LogRenderer: Reallocating scene render targets to support 956x436 Format 10 NumSamples 1 (Frame:1).
+[2018.10.08-03.57.05:442][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.08-03.57.05:442][  0]LogLoad: (Engine Initialization) Total time: 22.74 seconds
+[2018.10.08-03.57.05:442][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.08-03.57.05:455][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.10.08-03.57.05:477][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.08-03.57.05:527][  1]LogAssetRegistry: Asset discovery search completed in 9.7548 seconds
+[2018.10.08-03.57.05:529][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.08-03.57.05:529][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2018.10.08-03.57.09:535][458]LogSlate: Took 0.005862 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.08-03.57.33:534][331]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-03.57.34:480][443]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-03.57.36:878][718]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.08-03.57.36:882][718]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.08-03.57.36:906][718]LightingResults: New page: Lighting Build
+[2018.10.08-03.57.36:909][718]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2018.10.08-03.57.36:909][718]LoadErrors: New page: Loading map: Level_2.umap
+[2018.10.08-03.57.36:910][718]MapCheck: New page: Map Check
+[2018.10.08-03.57.36:910][718]LightingResults: New page: Lighting Build
+[2018.10.08-03.57.37:024][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e8aaf3600, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.08-03.57.37:032][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026e8aaf3600, Size=64
+[2018.10.08-03.57.37:032][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e8abc3680, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.08-03.57.37:039][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e973ba1b0, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.08-03.57.37:195][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e8f1c26a0, Size=208, Default__BodyGuard_C Function /Game/AI/BodyGuard.BodyGuard_C:ExecuteUbergraph_BodyGuard
+[2018.10.08-03.57.37:198][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026e8f1c26a0, Size=208
+[2018.10.08-03.57.37:198][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e8f1c26a0, Size=208, Default__BodyGuard_C Function /Engine/Transient.REINST_BodyGuard_C_4:ExecuteUbergraph_BodyGuard
+[2018.10.08-03.57.37:203][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e9735a860, Size=208, Default__BodyGuard_C Function /Game/AI/BodyGuard.BodyGuard_C:ExecuteUbergraph_BodyGuard
+[2018.10.08-03.57.37:315][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026ec165f100, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.10.08-03.57.37:319][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026ec165f100, Size=296
+[2018.10.08-03.57.37:319][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026ec165f100, Size=296, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_8:ExecuteUbergraph_ThirdPersonCharacter
+[2018.10.08-03.57.37:323][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026ec165d800, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.10.08-03.57.37:349][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e9b1ac560, Size=224, Default__BP_Camera_C Function /Game/ThirdPersonBP/Blueprints/BP_Camera.BP_Camera_C:ExecuteUbergraph_BP_Camera
+[2018.10.08-03.57.37:351][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026e9b1ac560, Size=224
+[2018.10.08-03.57.37:351][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e8f1ffba0, Size=224, Default__BP_Camera_C Function /Engine/Transient.REINST_BP_Camera_C_10:ExecuteUbergraph_BP_Camera
+[2018.10.08-03.57.37:352][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026e8f1fee80, Size=224, Default__BP_Camera_C Function /Game/ThirdPersonBP/Blueprints/BP_Camera.BP_Camera_C:ExecuteUbergraph_BP_Camera
+[2018.10.08-03.57.37:523][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026ec210b580, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.08-03.57.37:527][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026ec210b580, Size=392
+[2018.10.08-03.57.37:527][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026ec210b580, Size=392, Default__Level_C Function /Engine/Transient.REINST_Level_C_17:ExecuteUbergraph_Level_2
+[2018.10.08-03.57.37:531][718]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
+[2018.10.08-03.57.37:532][718]LogUObjectGlobals: Created PersistentFrame Addr=0x0000026ec21090c0, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.08-03.57.37:533][718]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [0054.83] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 6 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
+[2018.10.08-03.57.37:837][718]LogSkeletalMesh: Skeletal Mesh found in DDC [13.798982ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.10.08-03.57.37:917][718]LogAIModule: Creating AISystem for world Level_2
+[2018.10.08-03.57.37:949][718]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.08-03.57.37:963][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026e8abc3680, Size=64
+[2018.10.08-03.57.37:963][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026e8f1c26a0, Size=208
+[2018.10.08-03.57.37:963][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026ec165f100, Size=296
+[2018.10.08-03.57.37:963][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026e8f1ffba0, Size=224
+[2018.10.08-03.57.37:963][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026ec210b580, Size=392
+[2018.10.08-03.57.37:993][718]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.08-03.57.38:047][718]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.254ms to complete.
+[2018.10.08-03.57.38:047][718]LogFileHelpers: Loading map 'Level_2' took 1.168
+[2018.10.08-03.57.38:048][718]LogSlate: Window 'Open Level' being destroyed
+[2018.10.08-03.57.46:372][692]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
+[2018.10.08-03.57.52:117][361]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-03.58.01:193][421]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
+[2018.10.08-03.58.02:849][615]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-03.58.07:139][ 46]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera2)
+[2018.10.08-03.58.08:225][172]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-03.58.14:975][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-03.59.21:068][858]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
+[2018.10.08-03.59.25:764][406]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-03.59.30:176][719]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
+[2018.10.08-03.59.30:197][719]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0002 seconds. Added 15 classes and 2 folders.
+[2018.10.08-03.59.30:206][719]LogInit: Transaction tracking system initialized
+[2018.10.08-03.59.30:206][719]EditorErrors: New page: Matinee Initialization
+[2018.10.08-03.59.32:645][918]LogSlate: Window 'MatineeActor1' being destroyed
+[2018.10.08-03.59.40:766][774]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-03.59.52:183][837]LogSlate: Window 'MatineeActor1' being destroyed
+[2018.10.08-03.59.52:188][837]LogSlate: Window 'MatineeActor1' being destroyed
+[2018.10.08-03.59.56:279][192]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
+[2018.10.08-03.59.56:284][192]LogInit: Transaction tracking system initialized
+[2018.10.08-03.59.56:284][192]EditorErrors: New page: Matinee Initialization
+[2018.10.08-03.59.58:304][350]LogSlate: Window 'MatineeActor2' being destroyed
+[2018.10.08-04.00.00:469][558]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-04.00.04:606][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-04.00.08:827][365]LogSlate: Window 'MatineeActor2' being destroyed
+[2018.10.08-04.00.08:832][365]LogSlate: Window 'MatineeActor2' being destroyed
+[2018.10.08-04.00.10:559][558]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-04.00.13:678][811]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
+[2018.10.08-04.00.13:682][811]LogInit: Transaction tracking system initialized
+[2018.10.08-04.00.13:682][811]EditorErrors: New page: Matinee Initialization
+[2018.10.08-04.00.15:478][958]LogSlate: Window 'MatineeActor3' being destroyed
+[2018.10.08-04.00.17:436][ 97]LogSlate: Took 0.006855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.08-04.00.23:535][661]LogSlate: Window 'MatineeActor3' being destroyed
+[2018.10.08-04.00.23:541][661]LogSlate: Window 'MatineeActor3' being destroyed
+[2018.10.08-04.00.25:852][923]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-04.00.30:940][410]LogSlate: Window 'Convert Matinee to Level Sequence Asset' being destroyed
+[2018.10.08-04.00.30:945][410]LogInit: Transaction tracking system initialized
+[2018.10.08-04.00.30:945][410]EditorErrors: New page: Matinee Initialization
+[2018.10.08-04.00.32:790][561]LogSlate: Window 'MatineeActor4' being destroyed
+[2018.10.08-04.00.39:342][183]LogSlate: Window 'MatineeActor4' being destroyed
+[2018.10.08-04.00.39:348][183]LogSlate: Window 'MatineeActor4' being destroyed
+[2018.10.08-04.00.48:833][295]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-04.00.50:254][464]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-04.00.51:217][559]LogExit: Transaction tracking system shut down
+[2018.10.08-04.00.51:217][559]LogExit: Transaction tracking system shut down
+[2018.10.08-04.00.51:217][559]LogExit: Transaction tracking system shut down
+[2018.10.08-04.00.51:217][559]LogExit: Transaction tracking system shut down
+[2018.10.08-04.00.51:219][559]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.08-04.00.51:240][559]LightingResults: New page: Lighting Build
+[2018.10.08-04.00.51:240][559]LoadErrors: New page: Loading map: Level_1.umap
+[2018.10.08-04.00.51:243][559]MapCheck: New page: Map Check
+[2018.10.08-04.00.51:243][559]LightingResults: New page: Lighting Build
+[2018.10.08-04.00.51:254][559]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000026ec21090c0, Size=392
+[2018.10.08-04.00.51:399][559]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.10.08-04.00.51:399][559]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.10.08-04.00.51:400][559]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.10.08-04.00.51:400][559]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.10.08-04.00.51:410][559]LogAIModule: Creating AISystem for world Level_1
+[2018.10.08-04.00.51:416][559]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.08-04.00.51:458][559]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.08-04.00.51:523][559]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.878ms to complete.
+[2018.10.08-04.00.51:523][559]LogFileHelpers: Loading map 'Level_1' took 0.306
+[2018.10.08-04.00.51:525][559]LogSlate: Window 'Open Level' being destroyed
+[2018.10.08-04.00.53:383][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-04.00.56:350][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-04.00.56:533][134]LogSavePackage: Save=26.32ms
+[2018.10.08-04.00.56:533][134]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_1274BE0BC41292F7F8F092B909EB890D7.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_1.umap'
+[2018.10.08-04.00.56:537][134]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_1.umap
+[2018.10.08-04.00.56:620][134]LogSavePackage: Save=36.72ms
+[2018.10.08-04.00.56:620][134]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_1_BuiltData143564E1447C62A9907CF1951A4B985B.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset'
+[2018.10.08-04.00.56:621][134]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_1_BuiltData.uasset
