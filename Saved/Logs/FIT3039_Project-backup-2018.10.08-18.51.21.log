@@ -1,0 +1,1378 @@
+﻿Log file open, 10/08/18 16:30:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FIT3039_Project
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(559222916) SRandInit(559222916).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.494511
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.137s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-8AFEPG4 (118.139.29.234:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.08-05.30.21:316][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.08-05.30.21:316][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.08-05.30.21:339][  0]LogInit: Computer: DESKTOP-8AFEPG4
+[2018.10.08-05.30.21:340][  0]LogInit: User: Haojun
+[2018.10.08-05.30.21:340][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.10.08-05.30.21:340][  0]LogInit: High frequency timer resolution =2.156246 MHz
+[2018.10.08-05.30.21:340][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2018.10.08-05.30.21:340][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.08-05.30.21:340][  0]LogMemory: Process Physical Memory: 274.41 MB used, 274.41 MB peak
+[2018.10.08-05.30.21:340][  0]LogMemory: Process Virtual Memory: 272.07 MB used, 272.07 MB peak
+[2018.10.08-05.30.21:340][  0]LogMemory: Physical Memory: 4899.66 MB used,  3032.23 MB free, 7931.89 MB total
+[2018.10.08-05.30.21:340][  0]LogMemory: Virtual Memory: 4821.48 MB used,  3032.23 MB free, 134217728.00 MB total
+[2018.10.08-05.30.21:383][  0]LogInit: Using OS detected language (en-US).
+[2018.10.08-05.30.21:383][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.08-05.30.21:433][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.08-05.30.21:853][  0]LogStreaming: Display: Took  0.470s to EndInitTextLocalization.
+[2018.10.08-05.30.21:853][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.08-05.30.21:950][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.08-05.30.21:950][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.08-05.30.24:064][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.08-05.30.24:144][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (Feature Level 11_0)
+[2018.10.08-05.30.24:144][  0]LogD3D11RHI:       4021/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.08-05.30.24:155][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.10.08-05.30.24:155][  0]LogD3D11RHI:       128/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.10.08-05.30.24:158][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.08-05.30.24:158][  0]LogD3D11RHI:       0/0/3965 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.08-05.30.24:158][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.08-05.30.24:180][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.08-05.30.24:180][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.10.08-05.30.24:180][  0]LogWindows: EnumDisplayDevices:
+[2018.10.08-05.30.24:180][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2018.10.08-05.30.24:180][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.08-05.30.24:181][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.10.08-05.30.24:181][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.08-05.30.24:181][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti with Max-Q Design
+[2018.10.08-05.30.24:181][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.08-05.30.24:181][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.08-05.30.24:181][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2018.10.08-05.30.24:213][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.10.08-05.30.24:213][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.10.08-05.30.24:213][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.08-05.30.24:232][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.08-05.30.24:234][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Intermediate/Shaders/WorkingDirectory/7536/).
+[2018.10.08-05.30.24:234][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Haojun/AppData/Local/Temp/UnrealShaderWorkingDir/2663365F4CD038A24BEA07B678B87E6A/'.
+[2018.10.08-05.30.24:562][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.08-05.30.24:574][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.08-05.30.24:586][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.08-05.30.24:598][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.08-05.30.24:614][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.08-05.30.24:627][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.08-05.30.24:639][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.08-05.30.24:652][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.08-05.30.24:659][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.08-05.30.24:671][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.08-05.30.24:683][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.08-05.30.24:695][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.08-05.30.24:706][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.10.08-05.30.24:717][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.08-05.30.24:729][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.08-05.30.24:751][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.08-05.30.24:751][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.08-05.30.24:766][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.08-05.30.24:768][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.08-05.30.24:810][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.08-05.30.24:831][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.08-05.30.24:841][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.08-05.30.24:851][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.08-05.30.24:863][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.08-05.30.24:877][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.08-05.30.24:877][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.08-05.30.24:994][  0]LogXGEController: Cleaning working directory: C:/Users/Haojun/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.08-05.30.24:994][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.08-05.30.24:994][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.08-05.30.24:994][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.08-05.30.26:472][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.08-05.30.26:708][  0]LogDerivedDataCache: Loaded boot cache 0.24s 74MB C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.08-05.30.26:708][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.10.08-05.30.26:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.08-05.30.26:708][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.08-05.30.26:709][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.08-05.30.26:709][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.08-05.30.26:725][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.08-05.30.26:737][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Haojun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.08-05.30.26:737][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.08-05.30.26:737][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.08-05.30.26:748][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.08-05.30.26:748][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.08-05.30.26:761][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.08-05.30.26:761][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.08-05.30.27:934][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.10.08-05.30.28:234][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.08-05.30.28:391][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.08-05.30.28:395][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.08-05.30.28:395][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.08-05.30.28:395][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.08-05.30.28:395][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.08-05.30.28:395][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.08-05.30.28:424][  0]LogNetVersion: FIT3039_Project , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3493369064)
+[2018.10.08-05.30.28:937][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.080357 seconds
+[2018.10.08-05.30.28:944][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.10.08-05.30.28:944][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.10.08-05.30.28:944][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.08-05.30.32:561][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.08-05.30.32:589][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.08-05.30.32:965][  0]SourceControl: Source control is disabled
+[2018.10.08-05.30.32:965][  0]SourceControl: Source control is disabled
+[2018.10.08-05.30.32:981][  0]SourceControl: Source control is disabled
+[2018.10.08-05.30.32:995][  0]SourceControl: Source control is disabled
+[2018.10.08-05.30.33:451][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.08-05.30.33:580][  0]LogOcInput: OculusInput pre-init called
+[2018.10.08-05.30.33:697][  0]LogEngine: Initializing Engine...
+[2018.10.08-05.30.33:700][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.08-05.30.33:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.08-05.30.33:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.08-05.30.33:925][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.08-05.30.33:984][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.08-05.30.34:419][  0]LogInit: FAudioDevice initialized.
+[2018.10.08-05.30.34:470][  0]LogDerivedDataCache: Saved boot cache 0.05s 74MB C:/Users/Haojun/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.08-05.30.34:484][  0]LogInit: Texture streaming: Enabled
+[2018.10.08-05.30.34:502][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.08-05.30.34:518][  0]LogInit: Transaction tracking system initialized
+[2018.10.08-05.30.34:557][  0]BlueprintLog: New page: Editor Load
+[2018.10.08-05.30.34:667][  0]LocalizationService: Localization service is disabled
+[2018.10.08-05.30.34:783][  0]LogConsoleResponse: Display: 
+[2018.10.08-05.30.34:944][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.08-05.30.34:944][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.08-05.30.34:945][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.08-05.30.34:945][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.08-05.30.34:945][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.08-05.30.35:344][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/' took 0.02s
+[2018.10.08-05.30.35:344][  0]SourceControl: Source control is disabled
+[2018.10.08-05.30.35:345][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.08-05.30.35:345][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.10.08-05.30.35:345][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.08-05.30.35:388][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.249ms to complete.
+[2018.10.08-05.30.35:388][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.044
+[2018.10.08-05.30.35:543][  0]LogCollectionManager: Loaded 0 collections in 0.002374 seconds
+[2018.10.08-05.30.35:584][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Collections/' took 0.01s
+[2018.10.08-05.30.35:585][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/Developers/Haojun/Collections/' took 0.01s
+[2018.10.08-05.30.35:585][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/Collections/' took 0.01s
+[2018.10.08-05.30.35:585][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.08-05.30.35:593][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2452 classes and 558 folders.
+[2018.10.08-05.30.35:603][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.10.08-05.30.35:969][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.08-05.30.35:976][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.08-05.30.36:006][  0]LogSlate: Took 0.009735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.08-05.30.36:016][  0]LogSlate: Took 0.005526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.08-05.30.36:027][  0]LogSlate: Took 0.005863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.08-05.30.36:122][  0]LogRenderer: Reallocating scene render targets to support 876x436 Format 10 NumSamples 1 (Frame:1).
+[2018.10.08-05.30.36:312][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.08-05.30.36:312][  0]LogLoad: (Engine Initialization) Total time: 18.85 seconds
+[2018.10.08-05.30.36:312][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.08-05.30.36:350][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.08-05.30.36:500][  0]LogSlate: Took 0.006447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.08-05.30.36:536][  1]LogAssetRegistry: Asset discovery search completed in 8.6242 seconds
+[2018.10.08-05.30.36:538][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.08-05.30.36:538][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2018.10.08-05.30.38:335][107]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.30.39:024][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.30.42:639][361]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.08-05.30.42:644][361]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.08-05.30.42:661][361]LightingResults: New page: Lighting Build
+[2018.10.08-05.30.42:665][361]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2018.10.08-05.30.42:665][361]LoadErrors: New page: Loading map: Level_2.umap
+[2018.10.08-05.30.42:666][361]MapCheck: New page: Map Check
+[2018.10.08-05.30.42:666][361]LightingResults: New page: Lighting Build
+[2018.10.08-05.30.42:713][361]LogUObjectGlobals: Created PersistentFrame Addr=0x000002528996a380, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.08-05.30.42:722][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002528996a380, Size=64
+[2018.10.08-05.30.42:722][361]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025289969200, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.08-05.30.42:729][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb8f0d10, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.10.08-05.30.42:762][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb8b0aa0, Size=208, Default__BodyGuard_C Function /Game/AI/BodyGuard.BodyGuard_C:ExecuteUbergraph_BodyGuard
+[2018.10.08-05.30.42:766][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bb8b0aa0, Size=208
+[2018.10.08-05.30.42:766][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb8673c0, Size=208, Default__BodyGuard_C Function /Engine/Transient.REINST_BodyGuard_C_4:ExecuteUbergraph_BodyGuard
+[2018.10.08-05.30.42:769][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb8649c0, Size=208, Default__BodyGuard_C Function /Game/AI/BodyGuard.BodyGuard_C:ExecuteUbergraph_BodyGuard
+[2018.10.08-05.30.42:835][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb7e7880, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.10.08-05.30.42:840][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bb7e7880, Size=296
+[2018.10.08-05.30.42:840][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb7e7880, Size=296, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_8:ExecuteUbergraph_ThirdPersonCharacter
+[2018.10.08-05.30.42:845][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb7e5f80, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.10.08-05.30.42:852][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb40e080, Size=224, Default__BP_Camera_C Function /Game/ThirdPersonBP/Blueprints/BP_Camera.BP_Camera_C:ExecuteUbergraph_BP_Camera
+[2018.10.08-05.30.42:854][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bb40e080, Size=224
+[2018.10.08-05.30.42:854][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb40e080, Size=224, Default__BP_Camera_C Function /Engine/Transient.REINST_BP_Camera_C_10:ExecuteUbergraph_BP_Camera
+[2018.10.08-05.30.42:855][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bb40cb80, Size=224, Default__BP_Camera_C Function /Game/ThirdPersonBP/Blueprints/BP_Camera.BP_Camera_C:ExecuteUbergraph_BP_Camera
+[2018.10.08-05.30.42:901][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bbc50f00, Size=400, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.08-05.30.42:906][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bbc50f00, Size=400
+[2018.10.08-05.30.42:906][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bbc50f00, Size=400, Default__Level_C Function /Engine/Transient.REINST_Level_C_17:ExecuteUbergraph_Level_2
+[2018.10.08-05.30.42:910][361]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
+[2018.10.08-05.30.42:911][361]LogUObjectGlobals: Created PersistentFrame Addr=0x000002529130a5c0, Size=400, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.08-05.30.42:912][361]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [0025.45] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 7 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
+[2018.10.08-05.30.43:040][361]LogSkeletalMesh: Skeletal Mesh found in DDC [14.362926ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.10.08-05.30.43:284][361]LogAIModule: Creating AISystem for world Level_2
+[2018.10.08-05.30.43:307][361]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.08-05.30.43:321][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025289969200, Size=64
+[2018.10.08-05.30.43:321][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bb8673c0, Size=208
+[2018.10.08-05.30.43:321][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bb7e7880, Size=296
+[2018.10.08-05.30.43:321][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bb40e080, Size=224
+[2018.10.08-05.30.43:321][361]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bbc50f00, Size=400
+[2018.10.08-05.30.43:350][361]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.08-05.30.43:406][361]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.862ms to complete.
+[2018.10.08-05.30.43:406][361]LogFileHelpers: Loading map 'Level_2' took 0.767
+[2018.10.08-05.30.43:407][361]LogSlate: Window 'Open Level' being destroyed
+[2018.10.08-05.30.47:852][623]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.30.48:023][633]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.30.48:063][635]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.30.48:388][654]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.30.48:647][669]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.30.49:315][709]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.30.50:854][800]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/TBD.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.08-05.30.50:873][800]LightingResults: New page: Lighting Build
+[2018.10.08-05.30.50:874][800]LoadErrors: New page: Loading map: TBD.umap
+[2018.10.08-05.30.50:877][800]MapCheck: New page: Map Check
+[2018.10.08-05.30.50:877][800]LightingResults: New page: Lighting Build
+[2018.10.08-05.30.50:886][800]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002529130a5c0, Size=400
+[2018.10.08-05.30.50:922][800]LogAIModule: Creating AISystem for world TBD
+[2018.10.08-05.30.50:927][800]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.08-05.30.50:964][800]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.08-05.30.51:017][800]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.239ms to complete.
+[2018.10.08-05.30.51:017][800]LogFileHelpers: Loading map 'TBD' took 0.163
+[2018.10.08-05.30.51:019][800]LogSlate: Window 'Open Level' being destroyed
+[2018.10.08-05.30.53:228][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.30.53:345][937]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.08-05.30.53:360][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel.TBD' with GeneratedClass '/Game/ThirdPersonBP/Maps/TBD.TBD_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel.TBD'
+[2018.10.08-05.30.53:360][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-05.30.53:361][937]PIE: New page: PIE session: TBD (Oct 9, 2018, 3:30:53 AM)
+[2018.10.08-05.30.53:361][937]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_TBD
+[2018.10.08-05.30.53:365][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003220s)
+[2018.10.08-05.30.53:365][937]LogAIModule: Creating AISystem for world TBD
+[2018.10.08-05.30.53:365][937]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2018.10.08-05.30.53:365][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/TBD.TBD to /Game/ThirdPersonBP/Maps/UEDPIE_0_TBD.TBD (0.003878s)
+[2018.10.08-05.30.53:376][937]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.08-05.30.53:381][937]LogInit: FAudioDevice initialized.
+[2018.10.08-05.30.53:427][937]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.08-05.30.53:429][937]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_TBD.TBD up for play (max tick rate 60) at 2018.10.08-16.30.53
+[2018.10.08-05.30.53:429][937]LogWorld: Bringing up level for play took: 0.000731
+[2018.10.08-05.30.53:434][937]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.10.08-05.30.53:435][937]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_TBD 0.074
+[2018.10.08-05.30.53:436][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel.TBD' with GeneratedClass '/Game/ThirdPersonBP/Maps/TBD.TBD_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel.TBD'
+[2018.10.08-05.31.03:141][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel.TBD' with GeneratedClass '/Game/ThirdPersonBP/Maps/TBD.TBD_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel.TBD'
+[2018.10.08-05.31.03:176][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel.TBD' with GeneratedClass '/Game/ThirdPersonBP/Maps/TBD.TBD_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/TBD.TBD:PersistentLevel.TBD'
+[2018.10.08-05.31.05:039][629]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.31.05:913][679]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.31.06:171][679]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.10.08-05.31.06:415][679]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252add08780, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.08-05.31.06:415][679]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252add08778, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.08-05.31.06:724][679]LogSlate: Took 0.006613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.08-05.31.15:457][201]LogSlate: Window 'TBD - Level Blueprint Editor' being destroyed
+[2018.10.08-05.31.17:117][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.31.17:337][311]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.31.17:782][337]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.31.18:587][385]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.31.19:746][453]Cmd: MAP LOAD FILE="../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.08-05.31.19:761][453]LightingResults: New page: Lighting Build
+[2018.10.08-05.31.19:762][453]LoadErrors: New page: Loading map: Level_2.umap
+[2018.10.08-05.31.19:762][453]MapCheck: New page: Map Check
+[2018.10.08-05.31.19:762][453]LightingResults: New page: Lighting Build
+[2018.10.08-05.31.19:788][453]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252bbc50640, Size=400, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.08-05.31.19:793][453]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bbc50640, Size=400
+[2018.10.08-05.31.19:793][453]LogUObjectGlobals: Created PersistentFrame Addr=0x0000025291309280, Size=400, Default__Level_C Function /Engine/Transient.REINST_Level_C_33:ExecuteUbergraph_Level_2
+[2018.10.08-05.31.19:797][453]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
+[2018.10.08-05.31.19:798][453]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252c56633c0, Size=400, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.08-05.31.19:799][453]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [0062.33] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 7 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
+[2018.10.08-05.31.19:873][453]LogAIModule: Creating AISystem for world Level_2
+[2018.10.08-05.31.19:892][453]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.08-05.31.19:907][453]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000025291309280, Size=400
+[2018.10.08-05.31.19:935][453]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.08-05.31.19:990][453]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.834ms to complete.
+[2018.10.08-05.31.19:990][453]LogFileHelpers: Loading map 'Level_2' took 0.245
+[2018.10.08-05.31.19:991][453]LogSlate: Window 'Open Level' being destroyed
+[2018.10.08-05.31.20:666][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
+[2018.10.08-05.31.21:761][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.31.22:571][603]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2018.10.08-05.31.23:607][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.31.23:690][668]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.08-05.31.23:705][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.31.23:705][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-05.31.23:706][668]PIE: New page: PIE session: Level_2 (Oct 9, 2018, 3:31:23 AM)
+[2018.10.08-05.31.23:706][668]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2
+[2018.10.08-05.31.23:721][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014745s)
+[2018.10.08-05.31.23:721][668]LogAIModule: Creating AISystem for world Level_2
+[2018.10.08-05.31.23:721][668]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2018.10.08-05.31.23:721][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Level_2.Level_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2 (0.015537s)
+[2018.10.08-05.31.23:736][668]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.08-05.31.23:740][668]LogInit: FAudioDevice initialized.
+[2018.10.08-05.31.23:769][668]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.08-05.31.23:777][668]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.10.08-16.31.23
+[2018.10.08-05.31.23:778][668]LogWorld: Bringing up level for play took: 0.008171
+[2018.10.08-05.31.23:781][668]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2 0.42
+[2018.10.08-05.31.23:781][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.31.24:918][735]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.31.24:918][735]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.31.28:036][922]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.31.28:036][922]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.31.30:637][ 78]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.31.30:637][ 78]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.31.31:686][141]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.31.31:686][141]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.31.32:159][169]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.31.32:159][169]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.31.37:289][476]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.31.37:289][476]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.31.37:489][488]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.31.37:489][488]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.31.39:689][620]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03D4
+[2018.10.08-05.31.39:689][620]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.31.44:881][931]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.31.44:881][931]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.31.44:948][935]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.45:448][965]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.45:764][984]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.31.45:764][984]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.31.46:448][ 25]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.46:948][ 55]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.47:366][ 80]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.47:448][ 85]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.47:698][100]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.31.47:698][100]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.31.47:865][110]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.47:949][115]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.48:364][140]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.48:448][145]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.48:948][175]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.49:865][230]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.50:365][260]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.50:866][290]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.51:365][320]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.51:867][350]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.53:806][466]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.31.53:806][466]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.31.53:873][470]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.53:956][475]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.54:373][500]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.54:456][505]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.54:873][530]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.54:956][535]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.55:373][560]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.55:456][565]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.55:706][580]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03D4
+[2018.10.08-05.31.55:706][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.31.55:873][590]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.55:956][595]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.56:373][620]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.56:457][625]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.56:873][650]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.56:957][655]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.57:373][680]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.57:457][685]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.57:873][710]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.57:957][715]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.58:373][740]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.58:456][745]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.58:873][770]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.58:956][775]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.59:374][800]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.59:457][805]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.31.59:873][830]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.31.59:957][835]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.00:374][860]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.00:457][865]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.00:873][890]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.00:957][895]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.01:028][899]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.32.01:028][899]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.32.01:373][920]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.01:873][950]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.01:965][955]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.03:481][ 46]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.32.03:481][ 46]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.32.03:716][ 60]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.32.03:717][ 60]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.32.03:949][ 74]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.04:132][ 85]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.32.04:132][ 85]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.32.04:365][ 99]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.32.04:365][ 99]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.32.04:882][130]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.04:948][134]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.04:965][135]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.05:383][160]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.05:450][164]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.05:882][190]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.06:382][220]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.06:466][225]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.06:966][255]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.07:383][280]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.07:450][284]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.07:466][285]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.07:883][310]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.07:950][314]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.08:383][340]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.08:450][344]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.08:466][345]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.08:884][370]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.08:950][374]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.08:967][375]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.09:451][404]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.09:950][434]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.10:451][464]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.10:467][465]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.10:783][484]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.32.10:783][484]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.32.10:884][490]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.10:950][494]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.11:466][525]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.11:717][540]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03D4
+[2018.10.08-05.32.11:717][540]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.32.12:525][588]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.32.12:525][588]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.32.12:958][614]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.13:458][644]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.13:959][674]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.14:461][704]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.15:464][764]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.15:964][794]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.16:014][797]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.32.16:014][797]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.32.16:296][814]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.32.16:296][814]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.32.16:464][824]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.16:964][854]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.17:964][914]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.18:132][924]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.18:464][944]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.18:964][974]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.19:465][  4]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.19:732][ 20]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.32.19:733][ 20]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.32.19:965][ 34]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.20:099][ 42]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.32.20:099][ 42]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.32.20:465][ 64]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.20:969][ 94]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.21:466][124]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.21:916][150]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.21:972][154]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.32.21:972][154]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.32.21:972][154]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.22:405][180]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.22:472][184]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.22:490][185]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.22:906][210]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.22:973][214]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.23:139][224]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.23:173][226]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.32.23:173][226]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.32.23:406][240]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.23:422][241]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.32.23:422][241]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.32.23:489][245]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.23:989][275]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.24:411][300]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.24:495][305]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.24:908][330]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.24:994][335]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.25:408][360]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.25:457][363]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.32.25:457][363]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.32.25:493][365]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.25:908][390]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.25:991][395]LogBlueprintUserMessages: [BodyGuard2_45] Chasing
+[2018.10.08-05.32.26:142][404]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.26:475][424]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.26:642][434]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.26:908][450]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.32.26:975][454]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.32.27:142][464]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.27:642][494]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.27:741][500]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03D4
+[2018.10.08-05.32.27:741][500]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.32.28:142][524]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.28:641][554]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.29:142][584]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.29:642][614]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.30:142][644]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.30:643][674]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.31:142][704]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.31:643][734]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.32:149][764]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.32:650][794]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.33:149][824]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.33:649][854]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.34:150][884]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.34:650][914]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.35:151][944]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.35:650][974]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.35:749][980]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.32.35:749][980]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.32.36:150][  4]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.36:650][ 34]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.37:151][ 64]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.37:650][ 94]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.38:150][124]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.38:650][154]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.39:151][184]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.39:651][214]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.40:150][244]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.40:650][274]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.41:151][304]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.41:654][334]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.42:158][364]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.42:659][394]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.43:159][424]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.43:659][454]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.43:759][460]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03D4
+[2018.10.08-05.32.43:759][460]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.32.44:159][484]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.44:659][514]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.45:159][544]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.45:659][574]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.46:160][604]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.46:660][634]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.47:160][664]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.47:660][694]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.48:160][724]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.48:662][754]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.49:163][784]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.49:663][814]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.50:163][844]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.50:663][874]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.51:163][904]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.51:663][934]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.51:763][940]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.32.51:763][940]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.32.52:170][964]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.52:670][994]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.53:171][ 24]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.53:670][ 54]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.54:170][ 84]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.54:669][114]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.55:171][144]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.55:670][174]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.56:171][204]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.56:671][234]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.57:170][264]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.57:671][294]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.58:170][324]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.58:671][354]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.59:170][384]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.59:671][414]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.32.59:771][420]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03D4
+[2018.10.08-05.32.59:771][420]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.33.00:171][444]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.00:671][474]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.01:171][504]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.01:671][534]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.02:179][564]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.02:679][594]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.03:179][624]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.03:679][654]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.04:179][684]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.04:679][714]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.05:180][744]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.05:679][774]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.06:179][804]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.06:680][834]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.07:180][864]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.07:680][894]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.07:780][900]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.33.07:780][900]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.33.08:180][924]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.08:680][954]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.09:180][984]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.09:680][ 14]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.10:181][ 44]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.10:681][ 74]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.11:181][104]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.11:681][134]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.12:187][164]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.12:687][194]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.13:187][224]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.13:687][254]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.14:187][284]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.14:687][314]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.15:188][344]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.15:687][374]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.15:788][380]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03D4
+[2018.10.08-05.33.15:788][380]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.33.16:190][404]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.16:690][434]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.17:190][464]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.17:691][494]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.18:191][524]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.18:935][549]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.19:599][551]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.20:264][553]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.20:933][555]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.21:597][557]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.22:266][559]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.22:933][561]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.23:597][563]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.23:933][564]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.33.23:933][564]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.33.24:266][565]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.24:935][567]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.25:597][569]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.26:267][571]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.26:934][573]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.27:599][575]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.28:267][577]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.28:933][579]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.29:600][581]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.30:266][583]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.30:930][585]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.31:426][611]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.32:117][632]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03D4
+[2018.10.08-05.33.32:118][632]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.33.32:118][632]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.32:768][634]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.33:433][636]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.34:101][638]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.34:768][640]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.35:433][642]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.36:101][644]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.36:768][646]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.37:435][648]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.38:102][650]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.38:768][652]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.39:434][654]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.40:099][656]LogScript: Warning: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+	Level_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2:PersistentLevel.Level_C_3
+	Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2:03AB
+[2018.10.08-05.33.40:100][656]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.33.40:102][656]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.40:766][658]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.41:434][660]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.42:131][662]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.42:766][664]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.43:433][666]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.44:100][668]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.44:766][670]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.45:433][672]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.46:099][674]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.46:766][676]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.47:433][678]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.48:099][680]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.33.48:100][680]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.48:766][682]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.49:433][684]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.50:101][686]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.50:768][688]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.51:433][690]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.52:119][692]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.52:768][694]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.53:434][696]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.54:101][698]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.54:767][700]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.55:435][702]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.56:100][704]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.33.56:102][704]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.56:769][706]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.57:435][708]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.58:100][710]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.58:768][712]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.33.59:434][714]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.00:102][716]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.00:769][718]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.01:435][720]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.02:144][722]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.02:768][724]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.03:433][726]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.04:100][728]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.34.04:102][728]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.04:767][730]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.05:435][732]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.06:102][734]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.06:769][736]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.07:434][738]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.08:101][740]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.08:766][742]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.09:433][744]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.10:102][746]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.10:768][748]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.11:436][750]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.12:130][752]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.34.12:131][752]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.12:768][754]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.13:436][756]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.14:103][758]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.14:769][760]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.15:435][762]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.16:102][764]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.16:769][766]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.17:452][768]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.18:103][770]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.18:769][772]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.19:434][774]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.20:102][776]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.34.20:104][776]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.20:768][778]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.21:438][780]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.22:126][782]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.22:770][784]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.23:437][786]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.24:101][788]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.24:769][790]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.25:437][792]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.26:103][794]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.26:770][796]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.27:437][798]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.28:101][800]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.34.28:103][800]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.28:770][802]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.29:437][804]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.30:103][806]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.30:769][808]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.31:434][810]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.32:137][812]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.32:770][814]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.33:436][816]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.34:102][818]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.34:770][820]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.35:437][822]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.36:102][824]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.34.36:104][824]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.36:769][826]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.37:437][828]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.38:102][830]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.38:768][832]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.39:435][834]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.40:102][836]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.40:769][838]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.41:436][840]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.42:124][842]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.42:768][844]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.43:434][846]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.44:101][848]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.34.44:102][848]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.44:768][850]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.45:436][852]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.46:102][854]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.46:768][856]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.47:435][858]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.48:100][860]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.48:768][862]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.49:434][864]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.50:101][866]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.50:770][868]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.51:436][870]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.52:121][872]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.34.52:122][872]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.52:769][874]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.53:435][876]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.54:104][878]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.54:771][880]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.55:437][882]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.56:104][884]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.56:770][886]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.57:435][888]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.58:103][890]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.58:768][892]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.34.59:437][894]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.00:103][896]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.35.00:104][896]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.00:769][898]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.01:437][900]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.02:139][902]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.02:768][904]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.03:435][906]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.04:105][908]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.04:770][910]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.05:435][912]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.06:104][914]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.06:770][916]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.07:437][918]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.08:101][920]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.35.08:103][920]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.08:769][922]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.09:437][924]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.10:103][926]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.10:770][928]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.11:435][930]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.12:137][932]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.12:770][934]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.13:437][936]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.14:103][938]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.14:770][940]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.15:436][942]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.16:101][944]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.35.16:102][944]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.16:771][946]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.17:437][948]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.18:104][950]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.18:781][952]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.19:437][954]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.20:104][956]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.20:770][958]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.21:435][960]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.22:138][962]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.22:771][964]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.23:437][966]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.24:102][968]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.35.24:103][968]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.24:770][970]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.25:437][972]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.26:105][974]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.26:770][976]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.27:435][978]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.28:102][980]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.28:768][982]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.29:435][984]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.30:104][986]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.30:771][988]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.31:434][990]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.32:142][992]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.35.32:143][992]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.32:771][994]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.33:437][996]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.34:101][998]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.34:768][  0]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.35:434][  2]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.36:104][  4]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.36:771][  6]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.37:438][  8]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.38:104][ 10]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.38:768][ 12]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.39:437][ 14]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.40:101][ 16]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.35.40:102][ 16]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.40:770][ 18]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.41:435][ 20]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.42:120][ 22]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.42:770][ 24]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.43:437][ 26]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.44:104][ 28]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.44:770][ 30]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.45:437][ 32]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.46:103][ 34]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.46:770][ 36]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.47:437][ 38]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.48:101][ 40]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.35.48:102][ 40]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.48:769][ 42]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.49:437][ 44]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.50:102][ 46]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.50:768][ 48]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.51:437][ 50]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.52:140][ 52]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.52:771][ 54]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.53:437][ 56]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.54:104][ 58]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.54:769][ 60]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.55:436][ 62]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.56:103][ 64]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Reverse in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.35.56:105][ 64]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.56:771][ 66]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.57:435][ 68]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.58:104][ 70]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.58:772][ 72]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.35.59:437][ 74]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.00:103][ 76]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.00:771][ 78]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.01:439][ 80]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.02:148][ 82]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.02:606][105]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.03:106][135]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.03:606][165]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.04:105][195]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty from function: 'ExecuteUbergraph_Level_2' from node: Play in graph: EventGraph in object: Level_2 with description: Accessed None trying to read property None_ExecuteUbergraph_Level_2_RefProperty
+[2018.10.08-05.36.04:106][195]LogBlueprintUserMessages: [BodyGuard4_643] Chasing
+[2018.10.08-05.36.04:140][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.36.04:175][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.36.12:018][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.36.22:067][245]Cmd: DELETE
+[2018.10.08-05.36.22:067][245]Cmd: ACTOR DELETE
+[2018.10.08-05.36.22:078][245]LogEditorActor: Deleted Actor: MatineeActor
+[2018.10.08-05.36.22:078][245]LogEditorActor: Deleted Actor: MatineeActor
+[2018.10.08-05.36.22:079][245]LogEditorActor: Deleted Actor: MatineeActor
+[2018.10.08-05.36.22:079][245]LogEditorActor: Deleted Actor: MatineeActor
+[2018.10.08-05.36.22:092][245]LogEditorActor: Deleted 4 Actors (0.022 secs)
+[2018.10.08-05.36.26:520][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
+[2018.10.08-05.36.26:857][529]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-05.36.27:729][581]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
+[2018.10.08-05.36.28:849][646]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.36.30:668][754]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0003 seconds. Added 15 classes and 2 folders.
+[2018.10.08-05.36.30:674][754]LogInit: Transaction tracking system initialized
+[2018.10.08-05.36.30:675][754]EditorErrors: New page: Matinee Initialization
+[2018.10.08-05.36.30:702][754]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.36.37:074][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.36.37:238][  3]LogRenderer: Reallocating scene render targets to support 876x448 Format 10 NumSamples 1 (Frame:2066).
+[2018.10.08-05.36.37:284][  4]LogRenderer: Reallocating scene render targets to support 876x480 Format 10 NumSamples 1 (Frame:2068).
+[2018.10.08-05.36.37:330][  5]LogRenderer: Reallocating scene render targets to support 876x496 Format 10 NumSamples 1 (Frame:2070).
+[2018.10.08-05.36.37:378][  6]LogRenderer: Reallocating scene render targets to support 876x508 Format 10 NumSamples 1 (Frame:2072).
+[2018.10.08-05.36.37:422][  7]LogRenderer: Reallocating scene render targets to support 876x516 Format 10 NumSamples 1 (Frame:2074).
+[2018.10.08-05.36.37:468][  8]LogRenderer: Reallocating scene render targets to support 876x524 Format 10 NumSamples 1 (Frame:2076).
+[2018.10.08-05.36.37:514][  9]LogRenderer: Reallocating scene render targets to support 876x528 Format 10 NumSamples 1 (Frame:2078).
+[2018.10.08-05.36.50:797][791]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.08-05.36.50:803][791]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2018.10.08-05.36.51:951][860]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.08-05.36.51:951][860]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.08-05.37.04:878][635]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.37.04:945][639]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera4)
+[2018.10.08-05.37.09:360][902]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.37.41:535][825]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.37.54:343][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.38.02:129][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.38.08:711][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.38.23:024][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.38.33:848][950]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera)
+[2018.10.08-05.38.35:141][ 26]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-05.38.40:342][337]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.39.02:301][652]LogLinker: Warning: Can't find file '/Engine/EditorMaterials/MatineeGroups/MAT_Groups_ParticleReplay'
+[2018.10.08-05.39.02:301][652]LogLinker: Warning: Can't find file '/Engine/EditorMaterials/MatineeGroups/MAT_Groups_ParticleReplay'
+[2018.10.08-05.39.02:302][652]LogUObjectGlobals: Warning: Failed to find object 'Texture2D /Engine/EditorMaterials/MatineeGroups/MAT_Groups_ParticleReplay.MAT_Groups_ParticleReplay'
+[2018.10.08-05.39.03:770][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.39.05:481][841]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.39.12:075][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.39.16:780][514]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.39.19:096][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.39.22:643][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.39.28:926][230]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.39.32:468][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Walls)
+[2018.10.08-05.39.32:881][464]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-05.39.33:934][527]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera2)
+[2018.10.08-05.39.34:223][543]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-05.39.39:725][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.40.14:253][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.40.46:710][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.40.50:308][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.40.54:179][313]LogEditorViewport: Clicking on Actor (LMB): BP_Camera_C (BP_Camera3)
+[2018.10.08-05.40.54:870][353]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.08-05.41.00:229][674]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.41.01:325][735]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.41.02:145][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.41.08:912][188]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.41.12:532][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.41.28:846][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.41.31:984][553]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.08-05.41.38:156][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.41.43:287][127]LogSlate: Window 'Message' being destroyed
+[2018.10.08-05.41.43:294][127]LogSlate: Window 'MatineeActor*' being destroyed
+[2018.10.08-05.41.43:412][127]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252c56633c0, Size=400
+[2018.10.08-05.41.43:412][127]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252cbae7e40, Size=400, Default__Level_C Function /Engine/Transient.REINST_Level_C_37:ExecuteUbergraph_Level_2
+[2018.10.08-05.41.43:415][127]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] Node  Unknown  is not referencing a valid level actor
+[2018.10.08-05.41.43:417][127]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252c5663040, Size=400, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.08-05.41.43:417][127]LogBlueprint: Warning: [Compiler PersistentLevel.Level_2] [0685.95] Compile of PersistentLevel.Level_2 successful, but with 1 Warning(s) [in 14 ms] (/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2)
+[2018.10.08-05.41.43:737][127]LogSavePackage: Save=342.68ms
+[2018.10.08-05.41.43:737][127]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/Level_206940A2F48AF75250B3291B6C191D54F.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap'
+[2018.10.08-05.41.43:742][127]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Maps/Level_2.umap
+[2018.10.08-05.41.43:767][127]LogFileHelpers: Saving map 'Level_2' took 0.472
+[2018.10.08-05.41.50:054][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.41.50:185][443]LogRenderer: Reallocating scene render targets to support 948x544 Format 10 NumSamples 1 (Frame:20699).
+[2018.10.08-05.41.54:708][691]LogSlate: Took 0.004623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.08-05.42.23:679][288]LogUObjectGlobals: Created PersistentFrame Addr=0x000002532f56b4f8, Size=4, Default__SKEL_Level_2_C Function /Game/ThirdPersonBP/Maps/Level_2.SKEL_Level_2_C:ExecuteUbergraph_Level_2
+[2018.10.08-05.42.27:924][537]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002532f56b4f8, Size=4
+[2018.10.08-05.42.27:924][537]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252d006af70, Size=4, Default__SKEL_Level_2_C Function /Engine/Transient.REINST_SKEL_Level_2_C_41:ExecuteUbergraph_Level_2
+[2018.10.08-05.42.27:927][537]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252d0069138, Size=4, Default__SKEL_Level_2_C Function /Game/ThirdPersonBP/Maps/Level_2.SKEL_Level_2_C:ExecuteUbergraph_Level_2
+[2018.10.08-05.42.33:374][858]BlueprintLog: New page: Compile Level_2
+[2018.10.08-05.42.33:382][858]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252d0069138, Size=4
+[2018.10.08-05.42.33:382][858]LogUObjectGlobals: Created PersistentFrame Addr=0x000002532f56a020, Size=4, SKEL_Level_2_C_0 Function /Engine/Transient.REINST_SKEL_Level_2_C_43:ExecuteUbergraph_Level_2
+[2018.10.08-05.42.33:390][858]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252c5663040, Size=400
+[2018.10.08-05.42.33:390][858]LogUObjectGlobals: Created PersistentFrame Addr=0x000002532faf65c0, Size=400, Level_C_0 Function /Engine/Transient.REINST_Level_C_45:ExecuteUbergraph_Level_2
+[2018.10.08-05.42.33:395][858]LogUObjectGlobals: Created PersistentFrame Addr=0x000002532faf4100, Size=392, Default__Level_C Function /Game/ThirdPersonBP/Maps/Level_2.Level_C:ExecuteUbergraph_Level_2
+[2018.10.08-05.42.33:470][858]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002532f56a020, Size=4
+[2018.10.08-05.42.33:470][858]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252cbae7e40, Size=400
+[2018.10.08-05.42.33:470][858]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252d006af70, Size=4
+[2018.10.08-05.42.33:470][858]LogExit: Transaction tracking system shut down
+[2018.10.08-05.42.36:900][ 57]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.42.36:900][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.08-05.42.36:900][ 57]PIE: New page: PIE session: Level_2 (Oct 9, 2018, 3:42:36 AM)
+[2018.10.08-05.42.36:900][ 57]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2
+[2018.10.08-05.42.36:915][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014863s)
+[2018.10.08-05.42.36:916][ 57]LogAIModule: Creating AISystem for world Level_2
+[2018.10.08-05.42.36:916][ 57]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2018.10.08-05.42.36:916][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Level_2.Level_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2 (0.015684s)
+[2018.10.08-05.42.36:929][ 57]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002532faf65c0, Size=400
+[2018.10.08-05.42.36:932][ 57]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.08-05.42.36:937][ 57]LogInit: FAudioDevice initialized.
+[2018.10.08-05.42.37:047][ 57]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.08-05.42.37:066][ 57]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.10.08-16.42.37
+[2018.10.08-05.42.37:068][ 57]LogWorld: Bringing up level for play took: 0.018647
+[2018.10.08-05.42.37:078][ 57]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2 -0.283
+[2018.10.08-05.42.37:078][ 57]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.42.37:129][ 57]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2018.10.08-05.42.38:862][155]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.42.38:879][155]LogSlate: Window 'FIT3039_Project Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-05.42.38:930][155]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.42.40:310][232]LogSlate: Window 'Level* - Level Blueprint Editor' being destroyed
+[2018.10.08-05.42.59:087][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.08-05.42.59:153][321]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.08-05.42.59:169][321]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.42.59:169][321]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.08-05.42.59:180][321]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.10.08-05.42.59:187][321]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000252bb7e5f80, Size=296
+[2018.10.08-05.42.59:187][321]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252b88c0180, Size=296, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_53:ExecuteUbergraph_ThirdPersonCharacter
+[2018.10.08-05.42.59:192][321]LogUObjectGlobals: Created PersistentFrame Addr=0x00000252b88c16c0, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.10.08-05.42.59:406][321]LogPlayLevel: PlayLevel: Blueprint regeneration took 237 ms (1 blueprints)
+[2018.10.08-05.42.59:406][321]PIE: New page: PIE session: Level_2 (Oct 9, 2018, 3:42:59 AM)
+[2018.10.08-05.42.59:406][321]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2
+[2018.10.08-05.42.59:420][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014032s)
+[2018.10.08-05.42.59:421][321]LogAIModule: Creating AISystem for world Level_2
+[2018.10.08-05.42.59:421][321]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2018.10.08-05.42.59:421][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Level_2.Level_2 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2 (0.014852s)
+[2018.10.08-05.42.59:437][321]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.08-05.42.59:441][321]LogInit: FAudioDevice initialized.
+[2018.10.08-05.42.59:542][321]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.10.08-05.42.59:550][321]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2.Level_2 up for play (max tick rate 60) at 2018.10.08-16.42.59
+[2018.10.08-05.42.59:551][321]LogWorld: Bringing up level for play took: 0.007591
+[2018.10.08-05.42.59:559][321]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level_2 0.198
+[2018.10.08-05.42.59:559][321]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.43.00:543][372]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.43.00:543][372]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.43.06:213][712]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.43.06:214][712]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.43.07:696][801]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.07:696][801]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.08:514][850]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.43.08:514][850]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.43.09:179][890]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.43.09:180][890]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.43.09:196][891]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.43.09:196][891]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.43.10:514][970]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.10:514][970]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.14:926][234]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.43.14:926][234]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.43.16:159][308]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.43.16:159][308]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.43.16:893][352]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.16:893][352]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.18:211][431]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.18:393][442]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.43.18:393][442]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.43.18:711][461]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.19:211][491]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.19:711][521]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.20:111][545]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.20:111][545]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.20:211][551]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.20:711][581]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.21:360][620]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.43.21:361][620]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.43.23:211][731]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.23:713][761]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.24:217][791]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.24:482][807]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.24:482][807]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.24:717][821]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.25:217][851]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.25:266][854]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.43.25:266][854]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.43.25:333][858]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.25:333][858]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.25:966][896]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.43.25:966][896]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.43.28:367][ 40]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.28:367][ 40]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.31:551][231]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.31:551][231]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.32:433][284]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.32:433][284]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.32:834][308]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.32:834][308]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.32:834][308]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.32:834][308]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.33:201][330]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.33:201][330]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.33:218][331]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.33:784][365]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.33:784][365]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.33:834][368]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.33:834][368]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.34:251][393]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.34:251][393]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.35:219][451]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.36:920][553]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.43.36:920][553]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.43.37:353][579]LogBlueprintUserMessages: [BP_Camera_5202] Gotcha
+[2018.10.08-05.43.37:353][579]LogBlueprintUserMessages: [BP_Camera_5202] true
+[2018.10.08-05.43.38:723][661]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.39:722][721]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.41:223][811]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.41:224][811]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.41:724][841]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.42:225][871]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.42:225][871]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.42:724][901]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.42:724][901]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.43:225][931]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.43:723][961]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.44:225][991]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.44:725][ 21]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.45:226][ 51]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.45:226][ 51]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.45:726][ 81]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.45:726][ 81]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.45:891][ 91]LogBlueprintUserMessages: [BP_Camera3_8146] Gotcha
+[2018.10.08-05.43.45:891][ 91]LogBlueprintUserMessages: [BP_Camera3_8146] true
+[2018.10.08-05.43.46:226][111]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.46:226][111]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.46:675][138]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.46:675][138]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.46:726][141]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.46:726][141]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.47:226][171]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.47:226][171]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.47:726][201]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.47:726][201]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.48:009][218]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.48:009][218]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.48:226][231]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.48:226][231]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.48:726][261]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.48:726][261]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.49:226][291]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.49:726][321]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.49:726][321]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.50:227][351]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.50:227][351]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.50:643][376]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.50:643][376]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.51:526][429]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.51:526][429]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.51:727][441]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.51:910][452]LogBlueprintUserMessages: [BP_Camera2_6782] Gotcha
+[2018.10.08-05.43.51:910][452]LogBlueprintUserMessages: [BP_Camera2_6782] true
+[2018.10.08-05.43.52:044][460]LogBlueprintUserMessages: [BP_Camera4_9586] Gotcha
+[2018.10.08-05.43.52:044][460]LogBlueprintUserMessages: [BP_Camera4_9586] true
+[2018.10.08-05.43.52:227][471]LogBlueprintUserMessages: [BodyGuard_29] Chasing
+[2018.10.08-05.43.52:227][471]LogBlueprintUserMessages: [BodyGuard3_561] Chasing
+[2018.10.08-05.43.52:361][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.43.52:380][479]LogSlate: Window 'FIT3039_Project Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.08-05.43.52:419][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2' with GeneratedClass '/Game/ThirdPersonBP/Maps/Level_2.Level_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Level_2.Level_2:PersistentLevel.Level_2'
+[2018.10.08-05.43.56:805][735]LogSavePackage: Save=37.86ms
+[2018.10.08-05.43.56:805][735]LogSavePackage: Moving '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Saved/ThirdPersonCharacter02015A6440162F7B96405AA73A01F340.tmp' to '../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.10.08-05.43.56:807][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Haojun/Documents/Unreal Projects/FIT3039_Project/FIT3039/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
